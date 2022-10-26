@@ -176,14 +176,38 @@ body {
         margin: 1rem;
     }
 
-.portfolio {
+
+.my-portfolio {
     height: 70vh;
     margin: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #0b436e;
-} 
+    flex-direction: column;
+}
+
+    .portfolio-head {
+        font-style: normal;
+        border-bottom: 1px solid #0b436e;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 70px;
+        letter-spacing: -0.25px;
+        color: aliceblue;;
+        margin: 1rem;
+        margin-left: 50px;
+    }
+
+    .portfolio {
+        height: 70vh;
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0b436e;
+    } 
+
+
 
 
 

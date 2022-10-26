@@ -221,6 +221,36 @@ body {
   margin: 1rem;
 }
 
+.my-portfolio {
+  height: 70vh;
+  margin: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.portfolio-head {
+  font-style: normal;
+  border-bottom: 1px solid #0b436e;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: -0.25px;
+  color: aliceblue;
+  margin: 1rem;
+  margin-left: 50px;
+}
+
 .portfolio {
   height: 70vh;
   margin: 2rem;
