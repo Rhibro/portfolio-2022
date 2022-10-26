@@ -40,7 +40,7 @@ body {
   font-size: 30px;
   line-height: 40px;
   letter-spacing: -0.25px;
-  color: #FFFFFF;
+  color: aliceblue;
   margin: 1rem;
   -ms-flex-item-align: start;
       align-self: flex-start;
@@ -49,6 +49,11 @@ body {
 
 .navbar-links {
   height: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.25px;
 }
 
 .navbar-links ul {
@@ -97,6 +102,140 @@ body {
   border-radius: 10px;
 }
 
+.header {
+  background-color: #7ebdee;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.img-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 25vw;
+  height: 40vh;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img {
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 90px;
+  letter-spacing: -0.25px;
+  color: aliceblue;
+  margin: 1rem;
+  margin-left: 50px;
+}
+
+.my-title {
+  font-style: normal;
+  border-top: 1px solid #0b436e;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: -0.25px;
+  color: aliceblue;
+  margin: 1rem;
+  margin-left: 50px;
+}
+
+.about {
+  height: 70vh;
+  margin: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-me {
+  font-style: normal;
+  border-bottom: 1px solid #0b436e;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: -0.25px;
+  color: aliceblue;
+  margin: 2rem;
+}
+
+.info-box {
+  background-color: #7ebdee;
+  border-radius: 20px;
+}
+
+.info-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: -0.25px;
+  color: #0b436e;
+  margin: 1rem;
+}
+
+.portfolio {
+  height: 70vh;
+  margin: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0b436e;
+}
+
 @media screen and (max-width: 800px) {
   .toggle-btn {
     display: -webkit-box;
@@ -139,5 +278,39 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+@media screen and (max-width: 628px) {
+  .name {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .my-title {
+    font-size: 30px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 459px) {
+  .name {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .my-title {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .img {
+    width: 150px;
+    height: 250px;
+    border-radius: 50%;
+  }
+}
+@media screen and (max-width: 369px) {
+  .title {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
