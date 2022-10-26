@@ -9,7 +9,7 @@
     <meta property="twitter:description" content="Get to know Rhiannon Bronnimann">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
-    <link href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <script src="/script/script.js" defer></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rhiannon Brönnimann</title>
@@ -116,15 +116,16 @@
             </section>
     </section>
     <section class="contact">
-        <form class="contact-form">
-            <label for="name" class="label">FULL NAME</label>
-            <input type="text" id="name" required>
-            <label for="email" class="label">EMAIL</label>
-            <input type="email" id="email" required placeholder="Your Email">
-            <label for="message" class="label">MESSAGE</label>
-            <input type="text" id="message" required placeholder="Your Message">
-            <button class="form-btn" type="submit">SEND MESSAGE</button> 
-        </form>
+        <h4 class="contact-title">Contact</h4>
+            <form class="contact-form">
+                <label for="name" class="label">FULL NAME</label>
+                <input type="text" id="name" required>
+                <label for="email" class="label">EMAIL</label>
+                <input type="email" id="email">
+                <label for="message" class="label">MESSAGE</label>
+                <input type="text" id="message" required>
+                <button class="form-btn" type="submit">SEND MESSAGE</button> 
+            </form>
     </section>
 </body>
 </html>
