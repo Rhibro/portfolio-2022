@@ -104,7 +104,7 @@ body {
 
 .header {
   background-color: #7ebdee;
-  min-height: 80vh;
+  min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,28 +119,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-bottom: 20px;
-}
-
-.img-group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 25vw;
-  height: 40vh;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.img {
-  width: 200px;
-  height: 300px;
-  border-radius: 50%;
 }
 
 .name {
@@ -167,7 +145,7 @@ body {
 }
 
 .about {
-  min-height: 70vh;
+  min-height: 15vh;
   margin: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -197,19 +175,8 @@ body {
 
 .info-box {
   background-color: #7ebdee;
+  height: 65vh;
   width: 100%;
-}
-
-.info-box:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
 }
 
 .info {
@@ -307,8 +274,8 @@ body {
   border-top: 1px solid #0b436e;
   border-bottom: 1px solid #0b436e;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 45px;
   letter-spacing: -0.25px;
   color: #0b436e;
   margin: 1rem;
@@ -378,6 +345,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 1rem;
 }
 
 .input {
@@ -388,11 +356,6 @@ body {
   letter-spacing: -0.25px;
   color: aliceblue;
   margin: 1rem;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  background-color: #0b436e;
-  border-bottom: 1px solid #62afeb;
 }
 
 input:hover {
@@ -409,6 +372,20 @@ input:hover {
   letter-spacing: -0.25px;
   color: aliceblue;
   margin: 1rem;
+}
+
+.message-box {
+  height: 30vh;
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .form-btn {
