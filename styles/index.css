@@ -670,7 +670,7 @@ body {
 .project-des {
   font-style: normal;
   font-weight: 400;
-  font-size: calc(10px + 1vw);
+  font-size: 20px;
   line-height: 45px;
   letter-spacing: -0.25px;
   color: black;
@@ -678,7 +678,7 @@ body {
 }
 
 .project-btn {
-  width: 13vw;
+  width: 18vw;
   height: 10vh;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -694,7 +694,7 @@ body {
   font-style: normal;
   border-radius: 20px;
   font-weight: 400;
-  font-size: 30px;
+  font-size: calc(10px + 1vw);
   line-height: 50px;
   letter-spacing: -0.25px;
   color: black;
@@ -710,7 +710,7 @@ body {
 }
 
 .contact {
-  height: 100vh;
+  height: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,7 +819,7 @@ input:hover {
 .form-btn {
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: calc(10px + 1vw);
   line-height: 30px;
   letter-spacing: -0.25px;
   color: aliceblue;
@@ -877,13 +877,43 @@ input:hover {
   line-height: 110px;
 }
 
-/*@media screen and (max-width:1280px) {
+.fa-brands:hover {
+  color: #0b436e;
+}
 
-    .display-img-3 {
-        display: none;
-    }
+@media screen and (max-width: 1280px) {
+  .display-img-3 {
+    display: none;
+  }
 
-}*/
+  .project-des {
+    font-size: 20px;
+  }
+
+  .project-link {
+    font-size: 18px;
+  }
+
+  .social-box {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .pro-1 {
+    width: 70vw;
+    height: 40vh;
+  }
+
+  .pro-2 {
+    width: 70vw;
+    height: 40vh;
+  }
+
+  .pro-3 {
+    width: 70vw;
+    height: 40vh;
+  }
+}
 @media screen and (max-width: 800px) {
   .toggle-btn {
     display: -webkit-box;
@@ -928,6 +958,21 @@ input:hover {
     display: flex;
   }
 }
+@media screen and (max-width: 790px) {
+  .project-btn {
+    width: 20vw;
+  }
+}
+@media screen and (max-width: 711px) {
+  .project-btn {
+    width: 25vw;
+  }
+}
+@media screen and (max-width: 688px) {
+  .project-des {
+    font-size: 17px;
+  }
+}
 @media screen and (max-width: 628px) {
   .name {
     font-size: 50px;
@@ -939,7 +984,17 @@ input:hover {
     line-height: 60px;
   }
 }
-@media screen and (max-width: 459px) {
+@media screen and (max-width: 581px) {
+  .project-des {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .project-btn {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 474px) {
   .name {
     font-size: 30px;
     line-height: 40px;
@@ -950,15 +1005,26 @@ input:hover {
     line-height: 40px;
   }
 
-  .img {
-    width: 150px;
-    height: 250px;
-    border-radius: 50%;
+  .project-des {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .project-btn {
+    width: 40vw;
   }
 }
 @media screen and (max-width: 369px) {
   .title {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .project-title {
+    font-size: 30px;
+  }
+
+  .project-btn {
+    width: 50vw;
   }
 }
