@@ -8,7 +8,7 @@ body {
     font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #62afeb;
+    background-color: #0b436e;
 }
 
 .nav-bar {
@@ -128,7 +128,7 @@ body {
 
     .about-me {
         font-style: normal;
-        border-bottom: 1px solid #0b436e;
+        border-bottom: 1px solid #7ebdee;
         font-weight: 400;
         font-size: 50px;
         line-height: 70px;
@@ -145,6 +145,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     }
 
 
@@ -155,7 +156,7 @@ body {
         font-size: calc(10px + 1vw);
         line-height: 35px;
         letter-spacing: -0.25px;
-        color: #0b436e;
+        color: black;
         margin: 2rem;
         width: 40vw;
         height: 65vh;
@@ -214,7 +215,7 @@ body {
 }
 
     .portfolio-head {
-        border-bottom: 1px solid #0b436e;
+        border-bottom: 1px solid #7ebdee;
         font-style: normal;
         font-weight: 400;
         font-size: 50px;
@@ -230,12 +231,12 @@ body {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        background-color: #0b436e;
+        background-color: #7ebdee;
     } 
 
     .projects {
         width: 30vw;
-        height: 100vh;
+        height: 80vh;
         margin: 1em;
         border-radius: 20px;
         display: flex;
@@ -245,17 +246,21 @@ body {
     }
 
     .pro-1 {
-        background-image: url(../images/hour-test.png);
+        background-image: url(../images/image-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .pro-2 {
-        background-image: url(../images/gen.png);
+        background-image: url(../images/gen-1.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .pro-3 {
         background-image: url(../images/space.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     } 
 
     .project-title {
@@ -269,17 +274,29 @@ body {
         align-self: center;
     }
 
+    .project-box {
+        background-color: aliceblue;
+    }
+
     .project-des {
-        background-color: #0b436e;
         font-style: normal;
-        border-top: 1px solid aliceblue;;
-        border-bottom: 1px solid aliceblue;;
         font-weight: 400;
         font-size: calc(10px + 1vw);
         line-height: 45px;
         letter-spacing: -0.25px;
-        color: aliceblue;;
+        color: black;
         margin: 1rem;
+    }
+
+    .project-btn {
+        width: 13vw;
+        height: 10vh;
+        align-self: center;
+        margin: 2rem;
+        opacity: 70%;
+        background-color: aliceblue;
+        border-radius: 20px;
+        border: none;
     }
 
     .project-link {
@@ -289,22 +306,33 @@ body {
         font-size: 30px;
         line-height: 50px;
         letter-spacing: -0.25px;
-        color: aliceblue;
+        color: black;
         margin: 2rem;
         align-self: center;
+        text-decoration: none;
     }
 
-    .project-link:hover {
-        color: #0b436e;
+    .project-btn:hover {
+        opacity: 100%;
     }
 
 .contact {
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
+
+    .form-title {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
 
     .contact-title {
         border-bottom: 1px solid #0b436e;
@@ -317,8 +345,9 @@ body {
         margin: 1rem;
     }
 
+
     .contact-form {
-        background-color: #0b436e;
+        background-color: #7ebdee;
         border-radius: 20px;
         height: 60vh;
         width: 40vw;
@@ -340,9 +369,8 @@ body {
     }
 
     input:hover {
-        color: #0b436e;
-        background-color: #7ebdee;
-        border: none;
+        color: black;
+        border: 2px solid black;
     }
 
     .label {
@@ -351,7 +379,7 @@ body {
         font-size: 20px;
         line-height: 50px;
         letter-spacing: -0.25px;
-        color: aliceblue;
+        color: #0b436e;
     }
 
     .message-box {
@@ -370,7 +398,7 @@ body {
         letter-spacing: -0.25px;
         color: aliceblue;
         margin: 2rem;
-        background-color: #62afeb;
+        background-color: #0b436e;
         border: none;
         width: 200px;
         height: 70px;
@@ -378,17 +406,44 @@ body {
     }
 
     .form-btn:hover {
-        color: #62afeb;
+        color: #0b436e;
         background-color: aliceblue;
     }
 
-@media screen and (max-width:1280px) {
+    .social-group {
+        display: flex;
+       flex-wrap: wrap;
+       justify-content: flex-end;
+       align-items: center;
+    }
+
+    .social-box {
+       background-color: #7ebdee;
+       width: 12vw;
+       height: 20vh;
+       margin: 1rem;
+       border-radius: 50%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .fa-brands {
+        color: aliceblue;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 110px;
+    }
+
+/*@media screen and (max-width:1280px) {
 
     .display-img-3 {
         display: none;
     }
 
-}
+}*/
 
 @media screen and (max-width:800px) {
 

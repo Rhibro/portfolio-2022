@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <script src="/script/script.js" defer></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/5aeef5e3d6.js" crossorigin="anonymous"></script>
     <title>Rhiannon Brönnimann</title>
 </head>
 <body>
@@ -58,46 +58,61 @@
             <section class="portfolio">
                 <conatiner class="projects pro-1">
                     <p class="project-title">12-Hour-Test</p>
-                    <p class="project-des">
-                        I love practicality when it comes to studying. Obviously there is a need for 
-                        theoretical studies, but I prefer working with the mechanics directly. When reading 
-                        about this course I became immediately interested since we will be involved in so many 
-                        projects.
-                    </p>
-                    <a href="#" class="project-link">Check it Out</a>
+                        <div class="project-box">
+                            <p class="project-des">
+                                This was an exercise to build a completely 
+                                responsive web-page down to the smallest screen size of 320px. 
+                            </p>
+                        </div>
+                    <button class="project-btn"><a href="#" class="project-link">Check it Out</a></button>
                 </conatiner>
                 <conatiner class="projects pro-2">
                     <p class="project-title">Genesis-Design</p>
-                    <p class="project-des">
-                        I love practicality when it comes to studying. Obviously there is a need for 
-                        theoretical studies, but I prefer working with the mechanics directly. When reading 
-                        about this course I became immediately interested since we will be involved in so many 
-                        projects.
-                    </p>
-                    <a href="#" class="project-link">Check it Out</a>
+                        <div class="project-box">
+                            <p class="project-des">
+                                This is a multiple page website where I’ve utilized Flexbox and 
+                                CSS Grid to organize the unique layout.  
+                            </p>
+                        </div>
+                    <button class="project-btn"><a href="#" class="project-link">Check it Out</a></button>
                 </conatiner>
                 <conatiner class="projects pro-3">
                     <p class="project-title">Space-Theme</p>
-                    <p class="project-des">
-                        I love practicality when it comes to studying. Obviously there is a need for 
-                        theoretical studies, but I prefer working with the mechanics directly. When reading 
-                        about this course I became immediately interested since we will be involved in so many 
-                        projects.
-                    </p>
-                    <a href="#" class="project-link">Check it Out</a>
+                    <div class="project-box">
+                        <p class="project-des">
+                            As a group we were given the challenge of creating a website based 
+                            on a word “space” and a HEX colour code  of “#7ba376”.
+                        </p>
+                    </div>
+                    <button class="project-btn"><a href="#" class="project-link">Check it Out</a></button>
                 </conatiner>
             </section>
     <section class="contact">
-        <h4 class="contact-title">Contact</h4>
-            <form class="contact-form">
-                <label for="name" class="label">FULL NAME</label>
-                <input type="text" id="name" required>
-                <label for="email" class="label">EMAIL</label>
-                <input type="email" id="email">
-                <label for="message" class="label">MESSAGE</label>
-                <input class="message-box" type="text" id="message" required>
-                <button class="form-btn" type="submit">SEND MESSAGE</button> 
-            </form>
+        <section class="form-title">
+            <h4 class="contact-title">Contact</h4>
+                <section class="get-intouch"> 
+                    <form class="contact-form">
+                        <label for="name" class="label">FULL NAME</label>
+                        <input type="text" id="name" required>
+                        <label for="email" class="label">EMAIL</label>
+                        <input type="email" id="email">
+                        <label for="message" class="label">MESSAGE</label>
+                        <input class="message-box" type="text" id="message" required>
+                        <button class="form-btn" type="submit">SEND MESSAGE</button> 
+                    </form>
+                </section>     
+        </section>
+                <section class="social-group">
+                    <container class="social-box">
+                        <i class="fa-brands fa-github"></i>
+                    </container>
+                    <container class="social-box">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </container>
+                    <container class="social-box">
+                        <i class="fa-brands fa-instagram"></i>
+                    </container>
+                </section>  
     </section>
 </body>
 </html>
