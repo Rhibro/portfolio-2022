@@ -176,7 +176,9 @@ body {
 }
 
 .info-box {
-  background-color: #7ebdee;
+  background-image: url(../images/toronto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 95vh;
   width: auto;
   display: -webkit-box;
@@ -184,13 +186,31 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  overflow: hidden;
+}
+
+.text-box-info {
+  width: 70vw;
+  height: 48vh;
+  background-color: #7ebdee;
+  opacity: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow: hidden;
+  border-radius: 20px;
+  margin: 0.5rem;
 }
 
 .info {
@@ -198,13 +218,11 @@ body {
       align-self: flex-start;
   font-style: normal;
   font-weight: 400;
-  font-size: calc(10px + 1vw);
-  line-height: 35px;
+  font-size: 28px;
+  line-height: 40px;
   letter-spacing: -0.25px;
   color: black;
-  margin: 2rem;
-  width: 40vw;
-  height: 65vh;
+  margin: 1rem;
 }
 
 .img-box-1 {
@@ -899,6 +917,42 @@ input:hover {
     height: 25vh;
   }
 }
+@media screen and (max-width: 1180px) {
+  .info-box {
+    height: 65vh;
+  }
+
+  .text-box-info {
+    width: 65vw;
+    height: 45vh;
+  }
+
+  .info {
+    font-size: 25px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .info-box {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .text-box-info {
+    width: 65vw;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .text-box-info {
+    width: 65vw;
+    height: 55vh;
+  }
+}
 @media screen and (max-width: 1000px) {
   .portfolio {
     height: 150vh;
@@ -926,6 +980,17 @@ input:hover {
 
   .fa-brands {
     font-size: 70px;
+  }
+}
+@media screen and (max-width: 937px) {
+  .text-box-info {
+    width: 65vw;
+    height: 50vh;
+  }
+
+  .info {
+    font-size: 23px;
+    line-height: 33px;
   }
 }
 @media screen and (max-width: 800px) {

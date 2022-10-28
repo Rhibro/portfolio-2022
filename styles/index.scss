@@ -138,28 +138,39 @@ body {
     }
 
 .info-box {
-    background-color: #7ebdee;
+    background-image: url(../images/toronto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 95vh;
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     overflow: hidden;
     }
 
+    .text-box-info {
+        width: 70vw;
+        height: 48vh;
+        background-color: #7ebdee;
+        opacity: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        margin: .5rem;
+    }
 
     .info {
         align-self: flex-start;
         font-style: normal;
         font-weight: 400;
-        font-size: calc(10px + 1vw);
-        line-height: 35px;
+        font-size: 28px;
+        line-height: 40px;
         letter-spacing: -0.25px;
         color: black;
-        margin: 2rem;
-        width: 40vw;
-        height: 65vh;
+        margin: 1rem;
     }
 
     .img-box-1 {
@@ -464,6 +475,48 @@ body {
 
 }
 
+@media screen and (max-width:1180px) {
+
+    .info-box {
+        height: 65vh;
+    }
+
+    .text-box-info {
+        width: 65vw;
+        height: 45vh;
+    }
+
+    .info {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+
+    .info-box {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-box-info {
+        width: 65vw;
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width:1010px) {
+
+    .text-box-info {
+        width: 65vw;
+        height: 55vh;
+    }
+
+}
+
+
 @media screen and (max-width:1000px) {
 
     .portfolio {
@@ -494,6 +547,20 @@ body {
         font-size: 70px;
     }
 
+}
+
+@media screen and (max-width:937px) {
+
+    .text-box-info {
+        width: 65vw;
+        height: 50vh;
+    }
+
+    .info {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    
 }
 
 @media screen and (max-width:800px) {
