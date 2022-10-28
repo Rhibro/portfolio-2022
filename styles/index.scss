@@ -152,7 +152,7 @@ body {
 
     .text-box-info {
         width: 70vw;
-        height: 48vh;
+        height: 58vh;
         background-color: #7ebdee;
         opacity: 70%;
         display: flex;
@@ -563,6 +563,20 @@ body {
     
 }
 
+@media screen and (max-width:867px) {
+
+    .text-box-info {
+        width: 65vw;
+        height: 55vh;
+    }
+
+    .info {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    
+}
+
 @media screen and (max-width:800px) {
 
     .toggle-btn {
@@ -615,6 +629,15 @@ body {
         width: 20vw;
     }
 
+    .text-box-info {
+        width: 90vw;
+    }
+
+    .info {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
 }
 
 @media screen and (max-width:711px) {
@@ -645,6 +668,11 @@ body {
         line-height: 60px;
     }
 
+    .info {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
 }
 
 @media screen and (max-width:581px) {
@@ -668,6 +696,11 @@ body {
         height: 60vh;
     }
 
+    .info {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
 }
 
 @media screen and (max-width:474px) {
@@ -680,6 +713,11 @@ body {
     .my-title {
         font-size: 20px;
         line-height: 40px;
+    }
+
+    .info {
+        font-size: 19px;
+        line-height: 25px;
     }
 
     .project-des {
@@ -698,6 +736,19 @@ body {
 
 }
 
+@media screen and (max-width: 416px) {
+
+    .text-box-info {
+        width: 95vw;
+    }
+
+    .info {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+}
+
 @media screen and (max-width: 390px) {
 
     .social-box {
@@ -708,6 +759,11 @@ body {
 
     .fa-brands {
         font-size: 60px;
+    }
+
+    .info {
+        font-size: 17px;
+        line-height: 23px;
     }
     
 }
@@ -729,3 +785,11 @@ body {
 
 }
 
+@media screen and (max-width: 341px) {
+
+    .info {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+}
