@@ -674,7 +674,7 @@ body {
   line-height: 45px;
   letter-spacing: -0.25px;
   color: black;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .project-btn {
@@ -683,7 +683,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin: 2rem;
+  margin: 0.5rem;
   opacity: 70%;
   background-color: aliceblue;
   border-radius: 20px;
@@ -698,7 +698,7 @@ body {
   line-height: 50px;
   letter-spacing: -0.25px;
   color: black;
-  margin: 2rem;
+  margin: 0.5rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -896,9 +896,14 @@ input:hover {
 
   .social-box {
     width: 20vw;
+    height: 25vh;
   }
 }
 @media screen and (max-width: 1000px) {
+  .portfolio {
+    height: 150vh;
+  }
+
   .pro-1 {
     width: 70vw;
     height: 40vh;
@@ -912,6 +917,15 @@ input:hover {
   .pro-3 {
     width: 70vw;
     height: 40vh;
+  }
+
+  .social-box {
+    width: 10vw;
+    height: 15vh;
+  }
+
+  .fa-brands {
+    font-size: 70px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -957,6 +971,16 @@ input:hover {
     display: -ms-flexbox;
     display: flex;
   }
+
+  .social-box {
+    width: 15vw;
+    height: 15vh;
+  }
+
+  .contact-form {
+    width: 60vw;
+    height: 60vh;
+  }
 }
 @media screen and (max-width: 790px) {
   .project-btn {
@@ -993,6 +1017,16 @@ input:hover {
   .project-btn {
     width: 30vw;
   }
+
+  .social-box {
+    width: 20vw;
+    height: 15vh;
+  }
+
+  .contact-form {
+    width: 70vw;
+    height: 60vh;
+  }
 }
 @media screen and (max-width: 474px) {
   .name {
@@ -1012,6 +1046,22 @@ input:hover {
 
   .project-btn {
     width: 40vw;
+  }
+
+  .social-box {
+    width: 25vw;
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 390px) {
+  .social-box {
+    width: 25vw;
+    height: 15vh;
+    margin: 0.5rem;
+  }
+
+  .fa-brands {
+    font-size: 60px;
   }
 }
 @media screen and (max-width: 369px) {

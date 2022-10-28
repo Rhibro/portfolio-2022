@@ -285,14 +285,14 @@ body {
         line-height: 45px;
         letter-spacing: -0.25px;
         color: black;
-        margin: 1rem;
+        margin: .5rem;
     }
 
     .project-btn {
         width: 18vw;
         height: 10vh;
         align-self: center;
-        margin: 2rem;
+        margin: .5rem;
         opacity: 70%;
         background-color: aliceblue;
         border-radius: 20px;
@@ -307,7 +307,7 @@ body {
         line-height: 50px;
         letter-spacing: -0.25px;
         color: black;
-        margin: 2rem;
+        margin: .5rem;
         align-self: center;
         text-decoration: none;
     }
@@ -458,12 +458,17 @@ body {
 
     .social-box {
         width: 20vw;
+        height: 25vh;
     }
 
 
 }
 
 @media screen and (max-width:1000px) {
+
+    .portfolio {
+        height: 150vh;
+    }
 
     .pro-1 {
         width: 70vw;
@@ -478,6 +483,15 @@ body {
     .pro-3 {
         width: 70vw;
         height: 40vh;
+    }
+
+    .social-box {
+        width: 10vw;
+        height: 15vh;
+    }
+
+    .fa-brands {
+        font-size: 70px;
     }
 
 }
@@ -514,6 +528,16 @@ body {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .social-box {
+        width: 15vw;
+        height: 15vh;
+    }
+
+    .contact-form {
+        width: 60vw;
+        height: 60vh;
     }
 
 }
@@ -567,6 +591,16 @@ body {
         width: 30vw;
     }
 
+    .social-box {
+        width: 20vw;
+        height: 15vh;
+    }
+
+    .contact-form {
+        width: 70vw;
+        height: 60vh;
+    }
+
 }
 
 @media screen and (max-width:474px) {
@@ -590,6 +624,25 @@ body {
         width: 40vw;
     }
 
+    .social-box {
+        width: 25vw;
+        height: 15vh;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .social-box {
+        width: 25vw;
+        height: 15vh;
+        margin: .5rem;
+    }
+
+    .fa-brands {
+        font-size: 60px;
+    }
+    
 }
 
 @media screen and (max-width: 369px) {
