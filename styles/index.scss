@@ -145,15 +145,15 @@ body {
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     }
 
     .text-box-info {
-        width: 70vw;
-        height: 58vh;
-        background-color: #7ebdee;
+        width: 90vw;
+        height: 70vh;
+        background-color: white;
         opacity: 70%;
         display: flex;
         justify-content: center;
@@ -164,10 +164,11 @@ body {
 
     .info {
         align-self: flex-start;
+        justify-content: center;
         font-style: normal;
         font-weight: 400;
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 35px;
+        line-height: 48px;
         letter-spacing: -0.25px;
         color: black;
         margin: 1rem;

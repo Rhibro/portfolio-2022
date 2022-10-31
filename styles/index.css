@@ -186,19 +186,19 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow: hidden;
 }
 
 .text-box-info {
-  width: 70vw;
-  height: 58vh;
-  background-color: #7ebdee;
+  width: 90vw;
+  height: 70vh;
+  background-color: white;
   opacity: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,10 +216,13 @@ body {
 .info {
   -ms-flex-item-align: start;
       align-self: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 35px;
+  line-height: 48px;
   letter-spacing: -0.25px;
   color: black;
   margin: 1rem;
