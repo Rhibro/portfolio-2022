@@ -1,0 +1,441 @@
+@media screen and (max-width: 1038px) {
+
+    .box-3 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 1045px) {
+
+.info-group {
+    max-width: 360px;
+    width: 100%;
+    height: 600px
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .toggle-btn {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem .5rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .sec-5 {
+        height: 95vh;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .sec-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 846px) {
+
+    .sec-1 {
+        height: 150vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .display-img-1 {
+        max-width: 310px;
+        width: 100%;
+        height: 150;
+    }
+
+    .display-img-1 {
+        max-width: 310px;
+        width: 100%;
+        height: 150;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .nav-bar {
+        max-height: 300px;
+    }    
+
+    .sec-5{
+        height: 110vh;
+    }        
+
+    
+}
+
+@media screen and (max-width: 730px) {
+
+    .sec-5 {
+        height: 150vh;
+    }
+    
+    .text-box {
+        min-height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .sec-5 {
+        height: 170vh;
+    }
+    
+    .text-box {
+        min-height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 630px) {
+
+    .p-11 {
+        max-width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    
+    .info-group {
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .p-2 {
+        max-width: 550px;
+        width: 100%;
+        height: 100px;
+        margin: 20px;
+    }
+        
+    .p-3  {
+        max-width: 550px;
+        width: 100%;
+        height: 100px;
+        margin: 20px;
+    }  
+
+    .image-bar {
+         min-height: 200px;
+        height: 100%;
+    }
+
+    .p-11 {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .p-11 {
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .search {
+        font-size: 10px;
+    }
+
+    .p-2 {
+        max-width: 450px;
+        width: 100%;
+        height: 100px;
+        margin: 20px;
+    }
+        
+    .p-3  {
+        max-width: 450px;
+        width: 100%;
+        height: 100px;
+        margin: 20px;
+    } 
+
+    .display-img-1 {
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .display-img-2 {
+        grid-column-start: 2;
+        grid-column-end: 10;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+
+    .search {
+        font-size: 9px;
+        letter-spacing: .8px;
+    }
+
+    .p-11 {
+        max-width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    h1 {
+        font-size: 38px;
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+
+    .search {
+        font-size: 7px;
+        letter-spacing: .5px;
+    }
+
+    .image-bar {
+        min-height: 60px;
+        height: 100%;
+    }
+
+    .p-2 {
+        max-width: 310px;
+        width: 100%;
+        height: 100px;
+        margin: 20px;}
+        
+    .p-3  {
+        max-width: 310px;
+        width: 100%;
+        height: 100px;
+        margin: 20px;} 
+
+    .btn-2 {
+        margin-top: 50px;
+    }
+
+    .sec-3 {
+        height: 90vh;
+    }
+
+    .sec-4 {
+        height: 90vh;
+    }
+
+    .box-1 {
+        height: 400px;
+    }
+
+    .box-2 {
+        height: 400px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    .p-10 {
+        font-size: 14px;
+    }
+
+    .p-11 {
+        max-width: 300px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .search {
+        font-size: 7px;
+        letter-spacing: .1px;
+        line-height: 8px;
+    }
+   
+    .btn-3 {
+        align-self: center;
+    }
+
+    .btn-4 {
+        align-self: center;
+    }
+
+    .p-11 {
+        max-width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    
+    .search {
+        font-size: 5px;
+        letter-spacing: 0px;
+        line-height: 5px;
+    }
+   
+    .sec-3 {
+        height: 100vh;
+    }
+
+    .sec-4 {
+        height: 100vh;
+    }
+
+    .box-1 {
+        height: 460px;
+    }
+
+    .box-2 {
+        height: 460px;
+    }
+
+    .display-img-3 {
+        max-width: 315px;
+        width: 100%;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 337px) {
+
+    
+    .search {
+        display: none;
+    }
+
+    .search-small {
+        display: flex;
+        font-size: 5px;
+        letter-spacing: 0px;
+        line-height: 5px;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        height: 63px;
+    }
+
+}
+
+@media screen and (max-width: 325px) {
+
+    h4 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+
+    .menu {
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box-1 {
+        max-height: 500px;
+        height: 100%;
+    }
+
+    .box-2 {
+        max-height: 500px;
+        height: 100%;
+    }
+
+    .p-2 {
+        font-size: 15px;
+        max-width: 300px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .p-3 {
+        font-size: 15px;
+        max-width: 300px;
+        width: 100%;
+        height: 150px;
+    }
+
+    h5 {
+        font-size: 29px;
+    }
+
+    .box-3 {
+        max-width: 320px;
+        width: 100%;
+        min-height: 150px;
+        height: 100%;
+    }
+
+    .display-img-3 {
+        max-width: 315px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .text-box {
+        height: 600px;
+    }
+
+    .p-11 {
+        max-width: 200px;
+    }
+}
