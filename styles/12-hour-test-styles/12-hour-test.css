@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background-image: url(../images/image-1.png);
+  background-image: url(/images/12-hour-test-images/image-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -324,7 +324,7 @@ h3 {
 }
 
 .sec-1 {
-  background-image: url(../images/image-2.png);
+  background-image: url(/images/12-hour-test-images/image-2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -649,7 +649,7 @@ h4 {
 .sec-3 {
   width: 100%;
   height: 70vh;
-  background-image: url(../images/image-5.png);
+  background-image: url(/images/12-hour-test-images/image-5.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: -ms-grid;
@@ -918,7 +918,7 @@ h4 {
 .sec-4 {
   width: 100%;
   height: 70vh;
-  background-image: url(../images/image-6.png);
+  background-image: url(/images/12-hour-test-images/image-6.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: -ms-grid;
@@ -1187,7 +1187,7 @@ h4 {
 .sec-5 {
   width: 100%;
   height: 85vh;
-  background-image: url(../images/image-7.png);
+  background-image: url(/images/12-hour-test-images/image-7.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
