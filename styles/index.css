@@ -176,7 +176,7 @@ body {
 }
 
 .info-box {
-  background-image: url(../images/toronto.jpg);
+  background-image: url(/images/index-images/toronto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 95vh;
@@ -651,19 +651,19 @@ body {
 }
 
 .pro-1 {
-  background-image: url(../images/image-2.png);
+  background-image: url(/images/index-images/12-hour.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .pro-2 {
-  background-image: url(../images/gen-1.png);
+  background-image: url(/images/index-images/gen-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .pro-3 {
-  background-image: url(../images/space.jpg);
+  background-image: url(/images/index-images/space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
