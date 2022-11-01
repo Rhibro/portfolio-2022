@@ -1,0 +1,96 @@
+header {
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin: 20px;
+    align-self: flex-start;
+}
+.top-nava>a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+    text-decoration: none;
+}
+.top-nava>a:hover {
+    color: #4A4FF2;
+    text-decoration: underline;
+}
+.navi {
+    max-width: 600px;
+    margin: 20px;
+}
+li {
+    display: inline;
+    margin: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+
+    header {
+        max-width: 1000px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1070px) {
+
+    header {
+        max-width: 900px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+
+    header {
+        max-width: 800px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 850px) {
+
+    header {
+        max-width: 700px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+
+    header {
+        max-width: 600px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+
+    header {
+        max-width: 500px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+
+    header {
+        max-width: 400px;
+        width: 100%;
+    }
+    
+}

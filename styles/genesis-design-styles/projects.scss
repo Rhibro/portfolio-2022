@@ -1,0 +1,97 @@
+@use 'fonts';
+@import 'header';
+@import '_footer';
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.div-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 100px;
+}
+h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #111111;
+    min-height: 130px;
+    max-width: 495px;
+    width: 100%;
+    margin: 20px;
+}
+.p-1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    min-height: 100px;
+    max-width: 635px;
+    width: 100%;
+    margin: 20px;
+}
+.list-1 {
+    margin-top: 38px;
+    max-width: 340px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    margin-left: 20px;
+}
+.list-1_title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-bottom: 1px solid black;
+}
+.list-1_item {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    border-bottom: 1px solid grey;
+}
+.walking {
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.p-2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    max-width: 1110px;
+    width: 100%;
+}
+.img-group {
+    margin: 20px;
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
