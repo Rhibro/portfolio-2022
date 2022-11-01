@@ -145,17 +145,18 @@ body {
     width: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
     }
 
     .text-box-info {
-        width: 90vw;
-        height: 70vh;
+        width: 60vw;
+        height: 80vh;
         background-color: white;
         opacity: 70%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         border-radius: 20px;
@@ -164,58 +165,22 @@ body {
 
     .info {
         align-self: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         font-style: normal;
         font-weight: 400;
-        font-size: 35px;
-        line-height: 48px;
+        font-size: calc(17px + 1vw);
+        line-height: calc(1.1em + 0.5vw);
         letter-spacing: -0.25px;
         color: black;
         margin: 1rem;
     }
 
-    .img-box-1 {
-        display: grid;
-        grid-template-columns: repeat(20, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-gap: 10px;
-        padding: 10px;
-        width: 55vw;
-        height: 60vh;
-        align-self: flex-start;
-        margin-top: 2rem;
-    }
-        .display-img-1 {
-            max-width: 350px;
-            width: 100%;
-            height: 220px;
+        .display-image-1 {
+            max-width: 40vw;
+            height: 68vh;
             border-radius: 20px;
-            grid-column-start: 1;
-            grid-column-end: 9;
-            grid-row-start: 1;
-            grid-row-end: 2;
         }
 
-        .display-img-2 {
-            max-width: 350px;
-            width: 100%;
-            height: 220px;
-            border-radius: 20px;
-            grid-column-start: 1;
-            grid-column-end: 9;
-            grid-row-start: 2;
-            grid-row-end: 3;
-        }
-        .display-img-3 {
-            max-width: 350px;
-            width: 100%;
-            height: 450px;
-            border-radius: 20px;
-            grid-column-start:10;
-            grid-column-end:20;
-            grid-row-start: 1;
-            grid-row-end: 3;
-        }
 
 .my-portfolio {
     height: 15vh;
@@ -425,32 +390,23 @@ body {
     .social-group {
         display: flex;
        flex-wrap: wrap;
-       justify-content: flex-end;
+       justify-content:center;
        align-items: center;
-    }
-
-    .social-box {
-       background-color: #7ebdee;
-       width: 12vw;
-       height: 20vh;
-       margin: 1rem;
-       border-radius: 50%;
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       align-items: center;
+       width: 100vw;
+       height: 30vh;
     }
 
     .fa-brands {
-        color: aliceblue;
+        color: #7ebdee;;
         font-style: normal;
         font-weight: 400;
-        font-size: 100px;
-        line-height: 110px;
+        font-size: 90px;
+        line-height: 90px;
+        margin: 2rem;
     }
 
     .fa-brands:hover {
-        color: #0b436e;
+        color: aliceblue;
     }
 
 
@@ -476,49 +432,49 @@ body {
 
 }
 
-@media screen and (max-width:1180px) {
+@media screen and (max-width:1182px) {
 
     .info-box {
-        height: 65vh;
+        height: 120vh;
     }
 
     .text-box-info {
-        width: 65vw;
-        height: 45vh;
+        height: 50vh;
+        width: 70vw;
     }
 
-    .info {
-        font-size: 25px;
-        line-height: 36px;
+    .display-image-1 {
+        height: 58vh;
+        width: 70vw;
     }
 
 }
+
 
 @media screen and (max-width:1100px) {
 
     .info-box {
         align-items: center;
         justify-content: center;
+        height: 150vh;
     }
 
-    .text-box-info {
-        width: 65vw;
-        height: 50vh;
+    .display-image-1 {
+        height: 68vh;
+        width: 80vw;
     }
+
 
 }
 
-@media screen and (max-width:1010px) {
-
-    .text-box-info {
-        width: 65vw;
-        height: 55vh;
-    }
-
-}
 
 
 @media screen and (max-width:1000px) {
+
+    .text-box-info {
+        height: 58vh;
+        width: 80vw;
+    }
 
     .portfolio {
         height: 150vh;
@@ -550,30 +506,15 @@ body {
 
 }
 
-@media screen and (max-width:937px) {
+@media screen and (max-width:900px) {
 
-    .text-box-info {
-        width: 65vw;
-        height: 50vh;
+    .info-box {
+        height: 155vh;
     }
 
-    .info {
-        font-size: 23px;
-        line-height: 33px;
-    }
-    
-}
-
-@media screen and (max-width:867px) {
-
-    .text-box-info {
-        width: 65vw;
-        height: 55vh;
-    }
-
-    .info {
-        font-size: 21px;
-        line-height: 30px;
+    .display-image-1 {
+        height: 68vh;
+        width: 80vw;
     }
     
 }
@@ -612,6 +553,11 @@ body {
         display: flex;
     }
 
+    .text-box-info {
+        height: 68vh;
+        width: 90vh;
+    }
+
     .social-box {
         width: 15vw;
         height: 15vh;
@@ -630,21 +576,26 @@ body {
         width: 20vw;
     }
 
-    .text-box-info {
-        width: 90vw;
-    }
-
-    .info {
-        font-size: 25px;
-        line-height: 30px;
-    }
-
 }
 
 @media screen and (max-width:711px) {
     
     .project-btn {
         width: 25vw;
+    }
+
+    .info-box {
+        height: 170vh;
+    }
+
+    .text-box-info {
+        height: 75vh;
+        width: 100vh;
+    }
+
+    .display-image-1 {
+        height: 68vh;
+        width: 100vw;
     }
 
 }
@@ -669,9 +620,13 @@ body {
         line-height: 60px;
     }
 
-    .info {
-        font-size: 22px;
-        line-height: 29px;
+}
+
+@media screen and (max-width:600px) {
+    
+    .display-image-1 {
+        height: 60vh;
+        width: 120vw;
     }
 
 }
@@ -697,9 +652,18 @@ body {
         height: 60vh;
     }
 
-    .info {
-        font-size: 21px;
-        line-height: 27px;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .info-box {
+        height: 140vh;
+    }
+    
+    .display-image-1 {
+        height: 50vh;
+        width: 130vw;
     }
 
 }
@@ -716,10 +680,6 @@ body {
         line-height: 40px;
     }
 
-    .info {
-        font-size: 19px;
-        line-height: 25px;
-    }
 
     .project-des {
         font-size: 17px;
@@ -737,16 +697,17 @@ body {
 
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 450px) {
 
+    .info-box {
+        height: 150vh;
+    }
+    
     .text-box-info {
-        width: 95vw;
+        width: 100vw;
+        height: 85vh;
     }
 
-    .info {
-        font-size: 19px;
-        line-height: 23px;
-    }
 
 }
 
@@ -762,11 +723,6 @@ body {
         font-size: 60px;
     }
 
-    .info {
-        font-size: 17px;
-        line-height: 23px;
-    }
-    
 }
 
 @media screen and (max-width: 369px) {
@@ -786,11 +742,18 @@ body {
 
 }
 
-@media screen and (max-width: 341px) {
+@media screen and (max-width: 355px) {
 
-    .info {
-        font-size: 15px;
-        line-height: 25px;
+    .social-group {
+        width: 90vw;
+        height: 20vh;
+    }
+
+    .fa-brands {
+        width: 50px;
+        height: 50px;
+        margin: 1rem;
     }
 
 }
+
