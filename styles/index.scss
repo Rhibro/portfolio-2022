@@ -164,11 +164,12 @@ body {
     }
 
     .info {
+        font-family: 'Roboto', sans-serif;
         align-self: flex-start;
         justify-content: flex-start;
         font-style: normal;
         font-weight: 400;
-        font-size: calc(17px + 1vw);
+        font-size: calc(14px + 1vw);
         line-height: calc(1.1em + 0.5vw);
         letter-spacing: -0.25px;
         color: black;
