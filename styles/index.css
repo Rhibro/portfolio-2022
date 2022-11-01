@@ -338,10 +338,11 @@ body {
 }
 
 .project-des {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 45px;
+  font-size: 15px;
+  line-height: 40px;
   letter-spacing: -0.25px;
   color: black;
   margin: 0.5rem;
