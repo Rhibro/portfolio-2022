@@ -1,0 +1,353 @@
+@media screen and (max-width:1280px) {
+
+    .display-img-3 {
+        display: none;
+    }
+
+    .project-des {
+        font-size: 20px;
+    }
+
+    .project-link {
+        font-size: 18px;
+    }
+
+    .social-box {
+        width: 20vw;
+        height: 25vh;
+    }
+
+
+}
+
+@media screen and (max-width:1182px) {
+
+    .display-image-1 {
+        height: 58vh;
+        width: 70vw;
+    }
+
+}
+
+
+@media screen and (max-width:1100px) {
+
+    .info-box {
+        align-items: center;
+        justify-content: center;
+        height: 150vh;
+    }
+
+    .display-image-1 {
+        height: 68vh;
+        width: 80vw;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:1000px) {
+
+    .text-box-info {
+        height: 58vh;
+        width: 90vw;
+    }
+
+    .portfolio {
+        height: 150vh;
+    }
+
+    .pro-1 {
+        width: 70vw;
+        height: 40vh;
+    }
+
+    .pro-2 {
+        width: 70vw;
+        height: 40vh;
+    }
+
+    .pro-3 {
+        width: 70vw;
+        height: 40vh;
+    }
+
+    .social-box {
+        width: 10vw;
+        height: 15vh;
+    }
+
+    .fa-brands {
+        font-size: 70px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+
+    .info-box {
+        height: 100vh;
+    }
+
+    .display-image {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+
+    .toggle-btn {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .text-box-info {
+        height: 68vh;
+        width: 90vh;
+    }
+
+    .social-box {
+        width: 15vw;
+        height: 15vh;
+    }
+
+    .contact-form {
+        width: 60vw;
+        height: 60vh;
+    }
+
+}
+
+@media screen and (max-width:790px) {
+
+    .project-btn {
+        width: 20vw;
+    }
+
+}
+
+@media screen and (max-width:711px) {
+    
+    .project-btn {
+        width: 25vw;
+    }
+
+   /* .info-box {
+        height: 170vh;
+    }
+
+    .text-box-info {
+        height: 75vh;
+        width: 100vh;
+    }*/
+
+    .display-image-1 {
+        height: 68vh;
+        width: 100vw;
+    }
+
+}
+
+@media screen and (max-width:688px) {
+    
+    .project-des {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:628px) {
+
+    .name {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .my-title {
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    
+    .display-image-1 {
+        height: 60vh;
+        width: 120vw;
+    }
+
+}
+
+@media screen and (max-width:581px) {
+    
+    .project-des {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .project-btn {
+        width: 30vw;
+    }
+
+    .social-box {
+        width: 20vw;
+        height: 15vh;
+    }
+
+    .contact-form {
+        width: 70vw;
+        height: 60vh;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+
+    .info-box {
+        height: 140vh;
+    }
+    
+    .display-image-1 {
+        height: 50vh;
+        width: 130vw;
+    }
+
+}
+
+@media screen and (max-width:474px) {
+
+    .name {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .my-title {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+
+    .project-des {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .project-btn {
+        width: 40vw;
+    }
+
+    .social-box {
+        width: 25vw;
+        height: 15vh;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .info-box {
+        height: 150vh;
+    }
+    
+    .text-box-info {
+        width: 100vw;
+        height: 85vh;
+    }
+
+
+}
+
+@media screen and (max-width: 390px) {
+
+    .social-box {
+        width: 25vw;
+        height: 15vh;
+        margin: .5rem;
+    }
+
+    .fa-brands {
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (max-width: 369px) {
+    
+    .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .project-title {
+        font-size: 30px;
+    }
+
+    .project-btn {
+        width: 50vw;
+    }
+
+}
+
+@media screen and (max-width: 355px) {
+
+    .social-group {
+        width: 90vw;
+        height: 20vh;
+    }
+
+    .fa-brands {
+        width: 50px;
+        height: 50px;
+        margin: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 337px) {
+
+    .info-box {
+        height: 120vh;
+    }
+    
+    .info {
+        font-size: calc(13px + 1vw);
+        line-height: calc(1.5em + 0.1vw);
+    }
+
+    .display-image {
+        display: none;
+    }
+
+}

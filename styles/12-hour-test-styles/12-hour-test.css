@@ -1508,19 +1508,11 @@ footer {
   }
 }
 @media screen and (max-width: 730px) {
-  .sec-5 {
-    height: 150vh;
-  }
-
   .text-box {
     min-height: 350px;
   }
 }
 @media screen and (max-width: 650px) {
-  .sec-5 {
-    height: 170vh;
-  }
-
   .text-box {
     min-height: 400px;
   }

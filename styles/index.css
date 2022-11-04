@@ -211,7 +211,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 20px;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .info {
@@ -219,7 +219,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: calc(14px + 1vw);
-  line-height: calc(1.1em + 0.5vw);
+  line-height: calc(1.5em + 0.5vw);
   letter-spacing: -0.25px;
   color: black;
   margin: 1rem;
@@ -558,15 +558,6 @@ input:hover {
   }
 }
 @media screen and (max-width: 1182px) {
-  .info-box {
-    height: 120vh;
-  }
-
-  .text-box-info {
-    height: 50vh;
-    width: 70vw;
-  }
-
   .display-image-1 {
     height: 58vh;
     width: 70vw;
@@ -591,7 +582,7 @@ input:hover {
 @media screen and (max-width: 1000px) {
   .text-box-info {
     height: 58vh;
-    width: 80vw;
+    width: 90vw;
   }
 
   .portfolio {
@@ -624,12 +615,11 @@ input:hover {
 }
 @media screen and (max-width: 900px) {
   .info-box {
-    height: 155vh;
+    height: 100vh;
   }
 
-  .display-image-1 {
-    height: 68vh;
-    width: 80vw;
+  .display-image {
+    display: none;
   }
 }
 @media screen and (max-width: 800px) {
@@ -701,15 +691,14 @@ input:hover {
     width: 25vw;
   }
 
-  .info-box {
-    height: 170vh;
-  }
+  /*.info-box {
+       height: 170vh;
+   }
 
-  .text-box-info {
-    height: 75vh;
-    width: 100vh;
-  }
-
+   .text-box-info {
+       height: 75vh;
+       width: 100vh;
+   }*/
   .display-image-1 {
     height: 68vh;
     width: 100vw;
@@ -837,5 +826,19 @@ input:hover {
     width: 50px;
     height: 50px;
     margin: 1rem;
+  }
+}
+@media screen and (max-width: 337px) {
+  .info-box {
+    height: 120vh;
+  }
+
+  .info {
+    font-size: calc(13px + 1vw);
+    line-height: calc(1.5em + 0.1vw);
+  }
+
+  .display-image {
+    display: none;
   }
 }
