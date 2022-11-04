@@ -11,6 +11,8 @@ body {
     background-color: #0b436e;
 }
 
+
+
 .nav-bar {
     display: flex;
     position: relative;
@@ -153,8 +155,7 @@ body {
     .text-box-info {
         width: 60vw;
         height: 80vh;
-        background-color: white;
-        opacity: 70%;
+        background-color: rgba(255, 255, 255, 0.8);
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -165,8 +166,6 @@ body {
 
     .info {
         font-family: 'Roboto', sans-serif;
-        align-self: flex-start;
-        justify-content: flex-start;
         font-style: normal;
         font-weight: 400;
         font-size: calc(14px + 1vw);
@@ -176,7 +175,7 @@ body {
         margin: 1rem;
     }
 
-        .display-image-1 {
+        .display-image {
             max-width: 40vw;
             height: 68vh;
             border-radius: 20px;
@@ -276,6 +275,7 @@ body {
         background-color: aliceblue;
         border-radius: 20px;
         border: none;
+        transition: 1s;
     }
 
     .project-link {
@@ -293,6 +293,7 @@ body {
 
     .project-btn:hover {
         opacity: 100%;
+        border: 1px solid grey;
     }
 
 .contact {
@@ -345,6 +346,7 @@ body {
         letter-spacing: -0.25px;
         color: aliceblue;
         text-align: start;
+        transition: 1s;
     }
 
     input:hover {
@@ -382,6 +384,7 @@ body {
         width: 200px;
         height: 70px;
         border-radius: 20px;
+        transition: 1s;
     }
 
     .form-btn:hover {
@@ -405,6 +408,7 @@ body {
         font-size: 90px;
         line-height: 90px;
         margin: 2rem;
+        transition: 1s;
     }
 
     .fa-brands:hover {

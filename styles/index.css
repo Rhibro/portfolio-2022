@@ -198,8 +198,7 @@ body {
 .text-box-info {
   width: 60vw;
   height: 80vh;
-  background-color: white;
-  opacity: 70%;
+  background-color: rgba(255, 255, 255, 0.8);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -217,11 +216,6 @@ body {
 
 .info {
   font-family: "Roboto", sans-serif;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   font-style: normal;
   font-weight: 400;
   font-size: calc(14px + 1vw);
@@ -231,7 +225,7 @@ body {
   margin: 1rem;
 }
 
-.display-image-1 {
+.display-image {
   max-width: 40vw;
   height: 68vh;
   border-radius: 20px;
@@ -359,6 +353,8 @@ body {
   background-color: aliceblue;
   border-radius: 20px;
   border: none;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .project-link {
@@ -378,6 +374,7 @@ body {
 
 .project-btn:hover {
   opacity: 100%;
+  border: 1px solid grey;
 }
 
 .contact {
@@ -457,6 +454,8 @@ body {
   letter-spacing: -0.25px;
   color: aliceblue;
   text-align: start;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 input:hover {
@@ -500,6 +499,8 @@ input:hover {
   width: 200px;
   height: 70px;
   border-radius: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .form-btn:hover {
@@ -530,6 +531,8 @@ input:hover {
   font-size: 90px;
   line-height: 90px;
   margin: 2rem;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .fa-brands:hover {
