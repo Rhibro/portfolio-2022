@@ -218,7 +218,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: calc(14px + 1vw);
+  font-size: calc(12px + 1vw);
   line-height: calc(1.5em + 0.5vw);
   letter-spacing: -0.25px;
   color: black;
@@ -335,7 +335,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 40px;
   letter-spacing: -0.25px;
   color: black;
@@ -691,14 +691,11 @@ input:hover {
     width: 25vw;
   }
 
-  /*.info-box {
-       height: 170vh;
-   }
+  .text-box-info {
+    height: 75vh;
+    width: 100vh;
+  }
 
-   .text-box-info {
-       height: 75vh;
-       width: 100vh;
-   }*/
   .display-image-1 {
     height: 68vh;
     width: 100vw;
@@ -834,7 +831,7 @@ input:hover {
   }
 
   .info {
-    font-size: calc(13px + 1vw);
+    font-size: calc(12px + 1vw);
     line-height: calc(1.5em + 0.1vw);
   }
 
