@@ -169,7 +169,7 @@ body {
 }
 
 .about {
-  min-height: 15vh;
+  min-height: 10vh;
   width: auto;
   margin: 2rem;
   display: -webkit-box;
@@ -257,7 +257,7 @@ body {
 }
 
 .my-portfolio {
-  height: 15vh;
+  height: 10vh;
   margin: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
