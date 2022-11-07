@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Oswald", sans-serif;
   display: -webkit-box;
@@ -15,6 +19,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #0b436e;
+  overflow-x: hidden;
 }
 
 .nav-bar {
@@ -30,6 +35,10 @@ body {
           align-items: center;
   background-color: #0b436e;
   color: aliceblue;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 99;
 }
 
 .title {
@@ -44,6 +53,18 @@ body {
   -ms-flex-item-align: start;
       align-self: flex-start;
   margin-left: 50px;
+  cursor: default;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.title a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.title a:hover {
+  border-bottom: 2px solid white;
 }
 
 .navbar-links {
@@ -131,6 +152,7 @@ body {
   color: aliceblue;
   margin: 1rem;
   margin-left: 50px;
+  cursor: default;
 }
 
 .my-title {
@@ -143,6 +165,7 @@ body {
   color: aliceblue;
   margin: 1rem;
   margin-left: 50px;
+  cursor: default;
 }
 
 .about {
@@ -173,6 +196,7 @@ body {
   letter-spacing: -0.25px;
   color: aliceblue;
   margin: 2rem;
+  cursor: default;
 }
 
 .info-box {
@@ -223,6 +247,7 @@ body {
   letter-spacing: -0.25px;
   color: black;
   margin: 1rem;
+  cursor: default;
 }
 
 .display-image {
@@ -258,6 +283,7 @@ body {
   letter-spacing: -0.25px;
   color: aliceblue;
   margin: 1rem;
+  cursor: default;
 }
 
 .portfolio {
@@ -325,6 +351,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  cursor: default;
 }
 
 .project-box {
@@ -340,32 +367,30 @@ body {
   letter-spacing: -0.25px;
   color: black;
   margin: 0.5rem;
+  cursor: default;
 }
 
 .project-btn {
-  width: 18vw;
-  height: 10vh;
+  font-style: normal;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin: 0.5rem;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  letter-spacing: -0.25px;
+  margin: 2rem;
   opacity: 70%;
-  background-color: aliceblue;
+  background-color: white;
   border-radius: 20px;
-  border: none;
+  border: 20px solid white;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
 .project-link {
-  font-style: normal;
-  border-radius: 20px;
-  font-weight: 400;
-  font-size: calc(10px + 1vw);
-  line-height: 50px;
-  letter-spacing: -0.25px;
   color: black;
-  margin: 0.5rem;
+  margin: 2rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -374,7 +399,7 @@ body {
 
 .project-btn:hover {
   opacity: 100%;
-  border: 1px solid grey;
+  border: 15px solid white;
 }
 
 .contact {
@@ -394,6 +419,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: default;
 }
 
 .form-title {
@@ -412,6 +438,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  cursor: default;
 }
 
 .contact-title {
@@ -423,6 +450,7 @@ body {
   letter-spacing: -0.25px;
   color: aliceblue;
   margin: 1rem;
+  cursor: default;
 }
 
 .contact-form {
@@ -470,6 +498,7 @@ input:hover {
   line-height: 50px;
   letter-spacing: -0.25px;
   color: #0b436e;
+  cursor: default;
 }
 
 .message-box {
