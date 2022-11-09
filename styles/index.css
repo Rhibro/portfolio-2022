@@ -256,6 +256,107 @@ body {
   border-radius: 20px;
 }
 
+.my-education {
+  height: 10vh;
+  margin: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.education-head {
+  border-bottom: 1px solid #7ebdee;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: -0.25px;
+  color: aliceblue;
+  margin: 1rem;
+  cursor: default;
+}
+
+.education {
+  height: 130vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #7ebdee;
+}
+
+.cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  margin: 1em;
+  -webkit-box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+          box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 .my-portfolio {
   height: 10vh;
   margin: 2rem;
@@ -382,7 +483,7 @@ body {
   margin: 2rem;
   opacity: 70%;
   background-color: white;
-  border-radius: 20px;
+  border-radius: 15px;
   border: 20px solid white;
   -webkit-transition: 1s;
   transition: 1s;
@@ -399,7 +500,7 @@ body {
 
 .project-btn:hover {
   opacity: 100%;
-  border: 15px solid white;
+  border: 20px solid white;
 }
 
 .contact {
