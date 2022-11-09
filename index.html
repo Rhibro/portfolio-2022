@@ -13,6 +13,9 @@
     <script src="/script/script.js" defer></script>
     <link rel="icon" type="image/x-icon" href="/images/index-images/favicon (1).ico">
     <script src="https://kit.fontawesome.com/5aeef5e3d6.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <title>Rhiannon Brönnimann</title>
 </head>
 <body>
@@ -56,102 +59,43 @@
     <section class="my-education">
         <h3 class="education-head">My Education</h3>
     </section>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="cards-wrapper">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                <div class="card d-none d-md-block">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                <div class="card d-none d-md-block">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-              </div>
-              </div>
-              <div class="carousel-item">
-                <div class="cards-wrapper">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card d-none d-md-block">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card d-none d-md-block">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="cards-wrapper">
-                  <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card d-none d-md-block">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card d-none d-md-block">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
+    <section class="education">
+    <div class="wrapper">
+        <div class="carousel owl-carousel">
+          <div class="card card-1">
+            <img src="/images/index-images/sundslogo.png" class="card-img-top-1" alt="sundsgarden logo">
+            <h5 class="card-title">Sundsgården Folkhögskola</h5>
+            <p class="card-info-1">Aug 2022 - Jan 2023</p>
+            <p class="card-info-2">Helsingborg, Sweden</p>
+            <p class="card-text">IT-Tech for Women is a 5 month coding course. The program has a focus on practical skills as
+                well as working in group settings. The program consists of: programing foundations, programming in depth, responsive
+                web design, accessible web design, individual & group projects.
+            </p>
+            <a href="https://sundsgarden.se/utbildningar-kurser/langa-kurser/distanskurser/it-tech-for-women/" target="_blank" class="school-link">More Course Information</a>
+        </div>
+          <div class="card card-2">
+            <img src="/images/index-images/dwd-logo.png" class="card-img-top-2" alt="downward dog yoga center logo">
+            <h5 class="card-title">Downward Dog Yoga Center</h5>
+            <p class="card-info-1">Jan 2017 - May 2017</p>
+            <p class="card-info-2">Toronto, Canada</p>
+            <p class="card-text">An in depth understanding of yoga anatomy and how different positions can affect the body,
+                History of Ashtanga practice, and adjustments.
+            </p>
+            <a href="https://downwarddog.com/teacher-training/200hr-program-objectives/" target="_blank" class="school-link">More Course Information</a>
+        </div>
+          <div class="card card-3">
+            <img src="/images/index-images/humber-logo.png" class="card-img-top-3" alt="humber colleges logo">
+            <h5 class="card-title">Humber College</h5>
+            <p class="card-info-1">Sept 2011 - June 2014</p>
+            <p class="card-info-2">Toronto, Canada</p>
+            <p class="card-text">Interdisciplinary training with emphasis on physical movement, writing, collaborations with large
+                ensembles, and devised creation.
+            </p>
+            <a href="https://mediaarts.humber.ca/programs/theatre-arts-performance.html?year=2020&avail=0&pre_year=2021" target="_blank" class="school-link">More Course Information</a>
+        </div>
+        </div>
+      </div>
+    </section>  
     <section class="my-portfolio">
         <h3 class="portfolio-head">My Portfolio</h3>
     </section>    
