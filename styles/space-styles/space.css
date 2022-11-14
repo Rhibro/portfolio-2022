@@ -93,6 +93,7 @@ h2 {
     color: white;
     margin: 20px;
     border-bottom: 1px solid white;
+    cursor: default;
 }
 p {
     font-family: 'IBM Plex Mono';
@@ -104,6 +105,7 @@ p {
     letter-spacing: 0.02em;
     color: white;
     margin: 2rem;
+    cursor: default;
 }
 .info {
     display: flex;
@@ -167,6 +169,7 @@ img{
     width: 400px;
     height: 200px;
     border-radius: 20px;
+    cursor: default;
     
 }
 
