@@ -238,9 +238,10 @@ body {
             width: 100%;
             }
             .carousel{
-            max-width: 1200px;
+            width: 100%;
             margin: auto;
             padding: 0 30px;
+            display: flex;
             }
             .carousel .card{
             color: black;
@@ -252,7 +253,8 @@ body {
             border-radius: 20px;
             box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
             margin: 10px;
-            height: 65vh;
+            width: 50vw;
+            height: 80vh;
             }
             .card-img-top-1 {
                 max-width: 100px;
@@ -294,10 +296,10 @@ body {
             .card-text {
                 font-size: 27px;
                 line-height: 37px;
-                margin: 2rem;
+                margin: 1rem;
             }
             .school-link{
-                margin: 10px;
+                margin: 1rem;
                 text-decoration: none;
                 color: #0b436e;
 
@@ -314,25 +316,7 @@ body {
             .carousel .card-3{
             background: white;
             }
-            .owl-dots{
-            text-align: center;
-            margin-top: 40px;
-            }
-            .owl-dot{
-            height: 15px;
-            width: 45px;
-            margin: 0 5px;
-            outline: none;
-            border-radius: 14px;
-            border: 2px solid #0072bc;
-            box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-            transition: all 5s ease;
-            }
-            .owl-dot.active,
-            .owl-dot:hover{
-            background: #0072bc;
-            }
-
+           
 
 .my-portfolio {
     height: 10vh;
@@ -601,6 +585,11 @@ body {
         width: 70vw;
     }
 
+    .card-text {
+        font-size: 23px;
+        line-height: 33px;
+    }
+
 }
 
 
@@ -620,7 +609,24 @@ body {
 
 }
 
+@media screen and (max-width:1050px) {
 
+    .carousel {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education {
+        height: 200vh;
+    }
+
+    .carousel .card{
+        width: 80vw;
+        height: 60vh;
+    }
+
+}
 
 @media screen and (max-width:1000px) {
 
@@ -733,8 +739,8 @@ body {
 @media screen and (max-width:715px) {
 
     .card-text {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 18px;
+        line-height: 28px;
         margin: 1rem;
     }
     .card-info-1 {
@@ -785,14 +791,6 @@ body {
 
 }
 
-@media screen and (max-width:641px){
-
-    .carousel .card {
-        height: 80vh;
-    }
-
-}
-
 @media screen and (max-width:628px) {
 
     .name {
@@ -814,18 +812,24 @@ body {
         width: 120vw;
     }
 
-    .education {
-        height: 120vh;
+    .card-title {
+        font-size: 28px;
+        line-height: 38px;
     }
 
-    .carousel .card {
-        height: 100vh;
+    .card-info-1 {
+        line-height: 30px;
+        font-size: 22px;
     }
 
+    .card-info-2 {
+        line-height: 30px;
+        font-size: 22px;
+    }
 
     .card-text {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 15px;
+        line-height: 20px;
     }
 
 }
@@ -933,6 +937,21 @@ body {
 
 @media screen and (max-width: 369px) {
     
+    .card-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .card-info-1 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .card-info-2 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
     .title {
         font-size: 20px;
         line-height: 30px;
@@ -989,4 +1008,3 @@ body {
     }
 
 }
-
