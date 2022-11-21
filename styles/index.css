@@ -467,30 +467,13 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-}
-
-.pro-1 {
-  background-image: url(/images/index-images/12-hour.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pro-2 {
-  background-image: url(/images/index-images/gen-1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pro-3 {
-  background-image: url(/images/index-images/space.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: grey;
 }
 
 .project-title {
@@ -523,20 +506,12 @@ body {
   cursor: default;
 }
 
+.img-1 {
+  width: 28vw;
+  height: 30vh;
+}
+
 .project-btn {
-  font-style: normal;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 50px;
-  letter-spacing: -0.25px;
-  margin: 2rem;
-  opacity: 70%;
-  background-color: white;
-  border-radius: 15px;
-  border: 20px solid white;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -550,9 +525,9 @@ body {
   text-decoration: none;
 }
 
-.project-btn:hover {
+.img-1:hover {
   opacity: 100%;
-  border: 20px solid white;
+  border: 2px solid black;
 }
 
 .contact {
@@ -819,22 +794,22 @@ input:hover {
   }
 
   .portfolio {
-    height: 150vh;
+    height: 250vh;
   }
 
   .pro-1 {
-    width: 70vw;
-    height: 40vh;
+    width: 50vw;
+    height: 70vh;
   }
 
   .pro-2 {
-    width: 70vw;
-    height: 40vh;
+    width: 50vw;
+    height: 70vh;
   }
 
   .pro-3 {
-    width: 70vw;
-    height: 40vh;
+    width: 50vw;
+    height: 70vh;
   }
 
   .social-box {

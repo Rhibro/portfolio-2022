@@ -351,27 +351,12 @@ body {
         border-radius: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: flex-start;
+        background: grey;
     }
 
-    .pro-1 {
-        background-image: url(/images/index-images/12-hour.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 
-    .pro-2 {
-        background-image: url(/images/index-images/gen-1.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .pro-3 {
-        background-image: url(/images/index-images/space.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    } 
 
     .project-title {
         font-style: normal;
@@ -401,18 +386,12 @@ body {
         cursor: default;
     }
 
+    .img-1 {
+        width: 28vw;
+        height: 30vh;
+    }
+
     .project-btn {
-        font-style: normal;
-        align-self: center;
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 50px;
-        letter-spacing: -0.25px;
-        margin: 2rem;
-        opacity: 70%;
-        background-color: white;
-        border-radius: 15px;
-        border: 20px solid white;
         transition: 1s;
     }
 
@@ -423,9 +402,9 @@ body {
         text-decoration: none;
     }
 
-    .project-btn:hover {
+    .img-1:hover {
         opacity: 100%;
-        border: 20px solid white;
+        border: 2px solid black;
     }
 
 .contact {
@@ -651,22 +630,22 @@ body {
     }
 
     .portfolio {
-        height: 150vh;
+        height: 250vh;
     }
 
     .pro-1 {
-        width: 70vw;
-        height: 40vh;
+        width: 50vw;
+        height: 70vh;
     }
 
     .pro-2 {
-        width: 70vw;
-        height: 40vh;
+        width: 50vw;
+        height: 70vh;
     }
 
     .pro-3 {
-        width: 70vw;
-        height: 40vh;
+        width: 50vw;
+        height: 70vh;
     }
 
     .social-box {
