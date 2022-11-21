@@ -150,21 +150,24 @@ body {
 }
 
     .about-me {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 70px;
-        letter-spacing: -0.25px;
-        color: aliceblue;;
+        font-weight: 300;
+        font-size: calc(60px + 5vw);
+        line-height: calc(61px + 5vw);
+        letter-spacing: 10px;
+        color: black;
         margin: 2rem;
         cursor: default;
+        align-self: flex-start;
     }
 
 .info-box {
     background-image: url(/images/index-images/toronto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95vh;
+    height: 110vh;
     width: auto;
     display: flex;
     flex-wrap: wrap;
@@ -203,34 +206,29 @@ body {
             border-radius: 20px;
         }
 
-.my-education {
-    height: 10vh;
-    margin: 2rem;
+.education {
+    height: 110vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-        }
-        
+    background-color: grey;
+    }
+
     .education-head {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 70px;
-        letter-spacing: -0.25px;
-        color: aliceblue;;
-        margin: 1rem;
+        font-weight: 300;
+        font-size: calc(60px + 5vw);
+        line-height: calc(61px + 5vw);
+        letter-spacing: 10px;
+        color: black;
+        margin: 2rem;
         cursor: default;
+        align-self: flex-start;
         }
 
-        .education {
-            height: 100vh;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            background-color: #7ebdee;
-        }
         .wrapper{
             width: 100%;
             }
@@ -252,6 +250,7 @@ body {
             margin: 10px;
             width: 50vw;
             height: 80vh;
+            border: 2px solid black;
             }
             .card-img-top-1 {
                 max-width: 100px;
@@ -275,8 +274,9 @@ body {
                 align-self: flex-start;
             }
             .card-title {
-                font-size: 35px;
-                line-height: 45px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 30px;
+                line-height: 40px;
                 margin: .5rem;
             }
             .card-info-1 {
@@ -315,45 +315,39 @@ body {
             }
            
 
-.my-portfolio {
-    height: 10vh;
-    margin: 2rem;
+ .portfolio {
+    height: 110vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-}
+    background-color: white;
+    } 
 
     .portfolio-head {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 70px;
-        letter-spacing: -0.25px;
-        color: aliceblue;;
-        margin: 1rem;
+        font-weight: 300;
+        font-size: calc(60px + 5vw);
+        line-height: calc(61px + 5vw);
+        letter-spacing: 10px;
+        color: black;
+        margin: 2rem;
         cursor: default;
+        align-self: flex-start;
     }
-
-    .portfolio {
-        height: 130vh;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        background-color: #7ebdee;
-    } 
 
     .projects {
         width: 30vw;
         height: 80vh;
         margin: 1em;
-        border-radius: 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: flex-start;
+        align-items: center;
         background: grey;
+        border: 2px solid black;
     }
 
 
@@ -362,33 +356,35 @@ body {
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
-        line-height: 55px;
+        line-height: 50px;
         letter-spacing: -0.25px;
-        color: aliceblue;
+        color: black;
         margin: 1rem;
         align-self: center;
         cursor: default;
     }
 
     .project-box {
-        background-color: aliceblue;
+        background-color: black;
     }
 
     .project-des {
         font-family: 'Roboto', sans-serif;
         font-style: normal;
+        text-align: center;
         font-weight: 400;
         font-size: 20px;
         line-height: 40px;
         letter-spacing: -0.25px;
-        color: black;
+        color: white;
         margin: .5rem;
         cursor: default;
     }
 
     .img-1 {
-        width: 28vw;
+        width: 25vw;
         height: 30vh;
+        border: 2px solid black;
     }
 
     .project-btn {
@@ -396,7 +392,6 @@ body {
     }
 
     .project-link {
-        color: black;
         margin: 2rem;
         align-self: center;
         text-decoration: none;
@@ -404,7 +399,7 @@ body {
 
     .img-1:hover {
         opacity: 100%;
-        border: 2px solid black;
+        border: 3px solid black;
     }
 
 .contact {
