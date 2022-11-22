@@ -206,10 +206,6 @@ body {
     background-color: grey;
     }
 
-    .education-head {
-        color: black;
-        }
-
         .wrapper{
             width: 100%;
             }
@@ -928,6 +924,11 @@ body {
         height: 85vh;
     }
 
+    .portfolio-head {
+        letter-spacing: .5px;
+        font-size: calc(45px + 2vw);
+        line-height: calc(45px + 2vw);
+    }
 
 }
 
@@ -993,9 +994,8 @@ body {
 @media screen and (max-width: 355px) {
 
     .portfolio-head {
-        letter-spacing: .5px;
-        font-size: calc(50px + 2vw);
-        line-height: calc(50px + 2vw);
+        font-size: calc(45px + 2vw);
+        line-height: calc(45px + 2vw);
     }
    
     .social-group {
