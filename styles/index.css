@@ -18,7 +18,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #0b436e;
+  background-color: white;
   overflow-x: hidden;
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .title a:hover {
-  border-bottom: 1px solid white;
+  color: black;
 }
 
 .navbar-links {
@@ -124,7 +124,7 @@ body {
 }
 
 .header {
-  background-color: #7ebdee;
+  background-color: white;
   min-height: 80vh;
   width: auto;
   display: -webkit-box;
@@ -144,27 +144,33 @@ body {
 }
 
 .name {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 70px;
-  line-height: 90px;
-  letter-spacing: -0.25px;
-  color: aliceblue;
-  margin: 1rem;
-  margin-left: 50px;
+  font-weight: 300;
+  font-size: calc(60px + 5vw);
+  line-height: calc(61px + 5vw);
+  letter-spacing: 10px;
+  color: black;
+  margin: 2rem;
   cursor: default;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .my-title {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 80px;
-  letter-spacing: -0.25px;
-  color: aliceblue;
-  margin: 1rem;
-  margin-left: 50px;
+  font-weight: 300;
+  font-size: calc(50px + 2vw);
+  line-height: calc(51px + 2vw);
+  letter-spacing: 10px;
+  color: black;
+  margin: 2rem;
   cursor: default;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .about {
@@ -180,10 +186,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 .about-me {
@@ -194,7 +196,7 @@ body {
   font-size: calc(60px + 5vw);
   line-height: calc(61px + 5vw);
   letter-spacing: 10px;
-  color: black;
+  color: white;
   margin: 2rem;
   cursor: default;
   -ms-flex-item-align: start;
@@ -202,10 +204,8 @@ body {
 }
 
 .info-box {
-  background-image: url(/images/index-images/toronto.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 110vh;
+  background: #4e5052;
+  height: 120vh;
   width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -238,6 +238,7 @@ body {
           align-items: center;
   border-radius: 20px;
   margin: 1rem;
+  border: 2px solid black;
 }
 
 .info {
@@ -256,10 +257,11 @@ body {
   max-width: 40vw;
   height: 68vh;
   border-radius: 20px;
+  border: 2px solid black;
 }
 
 .education {
-  height: 110vh;
+  height: 130vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -312,9 +314,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -323,7 +325,7 @@ body {
           box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   margin: 10px;
   width: 50vw;
-  height: 80vh;
+  height: 90vh;
   border: 2px solid black;
 }
 
@@ -356,38 +358,38 @@ body {
 
 .card-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 33px;
   margin: 0.5rem;
 }
 
 .card-info-1 {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   margin: 0.5rem;
   font-style: italic;
 }
 
 .card-info-2 {
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   margin: 0.5rem;
 }
 
 .card-text {
-  font-size: 27px;
-  line-height: 37px;
+  font-size: 22px;
+  line-height: 32px;
   margin: 1rem;
 }
 
 .school-link {
   margin: 1rem;
   text-decoration: none;
-  color: #0b436e;
+  color: black;
 }
 
 .school-link:hover {
-  border-bottom: 2px solid #0b436e;
+  border-bottom: 1px solid black;
 }
 
 .carousel .card-1 {
@@ -403,7 +405,7 @@ body {
 }
 
 .portfolio {
-  height: 110vh;
+  height: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,7 +417,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: white;
+  background-color: #4e5052;
 }
 
 .portfolio-head {
@@ -426,7 +428,7 @@ body {
   font-size: calc(60px + 5vw);
   line-height: calc(61px + 5vw);
   letter-spacing: 10px;
-  color: black;
+  color: white;
   margin: 2rem;
   cursor: default;
   -ms-flex-item-align: start;
@@ -450,8 +452,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: grey;
+  background: white;
   border: 2px solid black;
+  border-radius: 20px;
 }
 
 .project-title {
@@ -510,7 +513,7 @@ body {
 }
 
 .contact {
-  height: 110vh;
+  height: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,46 +525,30 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  cursor: default;
-}
-
-.form-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
   cursor: default;
 }
 
 .contact-title {
-  border-bottom: 1px solid #0b436e;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 70px;
-  letter-spacing: -0.25px;
-  color: aliceblue;
-  margin: 1rem;
+  font-weight: 300;
+  font-size: calc(60px + 5vw);
+  line-height: calc(61px + 5vw);
+  letter-spacing: 10px;
+  color: black;
+  margin: 2rem;
   cursor: default;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 .contact-form {
-  background-color: #7ebdee;
+  background-color: #4e5052;
   border-radius: 20px;
   height: 60vh;
   width: 40vw;
@@ -579,6 +566,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 1rem;
+  border: 2px solid black;
 }
 
 .input {
@@ -587,10 +575,11 @@ body {
   font-size: 20px;
   line-height: 50px;
   letter-spacing: -0.25px;
-  color: aliceblue;
+  color: white;
   text-align: start;
   -webkit-transition: 1s;
   transition: 1s;
+  border: 2px solid black;
 }
 
 input:hover {
@@ -604,7 +593,7 @@ input:hover {
   font-size: 20px;
   line-height: 50px;
   letter-spacing: -0.25px;
-  color: #0b436e;
+  color: white;
   cursor: default;
 }
 
@@ -620,6 +609,7 @@ input:hover {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  border: 2px solid black;
 }
 
 .form-btn {
@@ -628,28 +618,28 @@ input:hover {
   font-size: calc(10px + 1vw);
   line-height: 30px;
   letter-spacing: -0.25px;
-  color: aliceblue;
+  color: white;
   margin: 2rem;
-  background-color: #0b436e;
+  background-color: black;
   border: none;
-  width: 200px;
+  width: 250px;
   height: 70px;
   border-radius: 20px;
   -webkit-transition: 1s;
   transition: 1s;
+  border: 2px solid black;
 }
 
 .form-btn:hover {
-  color: #0b436e;
-  background-color: aliceblue;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
 }
 
 .social-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -661,22 +651,20 @@ input:hover {
 }
 
 .fa-brands {
-  color: #7ebdee;
+  color: black;
   font-style: normal;
   font-weight: 400;
   font-size: 90px;
   line-height: 90px;
   margin: 2rem;
-  -webkit-transition: 1s;
-  transition: 1s;
 }
 
 .fa-brands:hover {
-  color: aliceblue;
+  color: #4e5052;
 }
 
 .the-end {
-  background-color: #7ebdee;
+  background-color: #4e5052;
   height: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -695,7 +683,7 @@ input:hover {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.25px;
-  color: #0b436e;
+  color: white;
   margin: 1rem;
   cursor: default;
 }
@@ -767,6 +755,11 @@ input:hover {
   }
 }
 @media screen and (max-width: 1000px) {
+  .my-title {
+    letter-spacing: 5px;
+    font-size: calc(45px + 2vw);
+  }
+
   .text-box-info {
     height: 58vh;
     width: 90vw;
@@ -808,8 +801,7 @@ input:hover {
   .display-image {
     display: none;
   }
-}
-@media screen and (max-width: 800px) {
+
   .toggle-btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -851,6 +843,23 @@ input:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header {
+    height: 20vh;
+  }
+
+  .name {
+    font-size: calc(50px + 2vw);
+    line-height: calc(50px + 2vw);
+    letter-spacing: 5px;
+  }
+
+  .my-title {
+    font-size: calc(40px + 2vw);
+    line-height: calc(40px + 2vw);
+    letter-spacing: 2px;
   }
 
   .text-box-info {
@@ -921,15 +930,21 @@ input:hover {
     width: 30vw;
   }
 }
-@media screen and (max-width: 628px) {
+@media screen and (max-width: 630px) {
+  .header {
+    height: 15vh;
+  }
+
   .name {
-    font-size: 50px;
-    line-height: 70px;
+    font-size: calc(40px + 2vw);
+    line-height: calc(40px + 2vw);
+    letter-spacing: 2px;
   }
 
   .my-title {
-    font-size: 30px;
-    line-height: 60px;
+    font-size: calc(30px + 2vw);
+    line-height: calc(30px + 2vw);
+    letter-spacing: 1px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -996,14 +1011,20 @@ input:hover {
   }
 }
 @media screen and (max-width: 474px) {
+  .header {
+    height: 10vh;
+  }
+
   .name {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: calc(30px + 2vw);
+    line-height: calc(30px + 2vw);
+    letter-spacing: 2px;
   }
 
   .my-title {
-    font-size: 20px;
-    line-height: 40px;
+    font-size: calc(20px + 2vw);
+    line-height: calc(20px + 2vw);
+    letter-spacing: 1px;
   }
 
   .project-des {
@@ -1021,6 +1042,11 @@ input:hover {
   }
 }
 @media screen and (max-width: 450px) {
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
   .info-box {
     height: 150vh;
   }
@@ -1055,11 +1081,6 @@ input:hover {
   .card-info-2 {
     font-size: 15px;
     line-height: 25px;
-  }
-
-  .title {
-    font-size: 20px;
-    line-height: 30px;
   }
 
   .project-title {

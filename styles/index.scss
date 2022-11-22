@@ -12,7 +12,7 @@ body {
     font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
-    background-color: #0b436e;
+    background-color: white;
     overflow-x: hidden;
 }
 
@@ -52,7 +52,8 @@ body {
     }
 
     .title a:hover {
-        border-bottom: 1px solid white ;
+        //border-bottom: 1px solid black ;
+        color: black;
     }
 
     .navbar-links{
@@ -105,7 +106,7 @@ body {
     }
 
 .header {
-    background-color: #7ebdee;
+    background-color: white;
     min-height: 80vh;
     width: auto;
     display: flex;
@@ -116,40 +117,6 @@ body {
 }
 
     .name {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 70px;
-        line-height: 90px;
-        letter-spacing: -0.25px;
-        color: aliceblue;
-        margin: 1rem;
-        margin-left: 50px;
-        cursor: default;
-    }
-
-    .my-title {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 80px;
-        letter-spacing: -0.25px;
-        color: aliceblue;
-        margin: 1rem;
-        margin-left: 50px;
-        cursor: default;
-    }
-
-.about {
-    min-height: 10vh;
-    width: auto;
-    margin: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-    .about-me {
         width: 100%;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -163,11 +130,46 @@ body {
         align-self: flex-start;
     }
 
+    .my-title {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: calc(50px + 2vw);
+        line-height: calc(51px + 2vw);
+        letter-spacing: 10px;
+        color: black;
+        margin: 2rem;
+        cursor: default;
+        align-self: flex-start;
+    }
+
+.about {
+    min-height: 10vh;
+    width: auto;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .about-me {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: calc(60px + 5vw);
+        line-height: calc(61px + 5vw);
+        letter-spacing: 10px;
+        color: white;
+        margin: 2rem;
+        cursor: default;
+        align-self: flex-start;
+    }
+
 .info-box {
-    background-image: url(/images/index-images/toronto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 110vh;
+    background: #4e5052;
+    height: 120vh;
     width: auto;
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +188,7 @@ body {
         align-items: center;
         border-radius: 20px;
         margin: 1rem;
+        border: 2px solid black;
     }
 
     .info {
@@ -204,10 +207,11 @@ body {
             max-width: 40vw;
             height: 68vh;
             border-radius: 20px;
+            border: 2px solid black;
         }
 
 .education {
-    height: 110vh;
+    height: 130vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -243,13 +247,13 @@ body {
             text-align: center;
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            justify-content: space-between;
             align-items: center;
             border-radius: 20px;
             box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
             margin: 10px;
             width: 50vw;
-            height: 80vh;
+            height: 90vh;
             border: 2px solid black;
             }
             .card-img-top-1 {
@@ -275,34 +279,34 @@ body {
             }
             .card-title {
                 font-family: 'Montserrat', sans-serif;
-                font-size: 30px;
-                line-height: 40px;
+                font-size: 22px;
+                line-height: 33px;
                 margin: .5rem;
             }
             .card-info-1 {
-                font-size: 25px;
-                line-height: 40px;
+                font-size: 20px;
+                line-height: 30px;
                 margin: .5rem;
                 font-style: italic;
             }
             .card-info-2 {
-                font-size: 25px;
-                line-height: 40px;
+                font-size: 20px;
+                line-height: 30px;
                 margin: .5rem;
             }
             .card-text {
-                font-size: 27px;
-                line-height: 37px;
+                font-size: 22px;
+                line-height: 32px;
                 margin: 1rem;
             }
             .school-link{
                 margin: 1rem;
                 text-decoration: none;
-                color: #0b436e;
+                color: black;
 
             }
             .school-link:hover {
-                border-bottom: 2px solid #0b436e;
+                border-bottom: 1px solid black;
             }
             .carousel .card-1{
             background: white;
@@ -316,12 +320,12 @@ body {
            
 
  .portfolio {
-    height: 110vh;
+    height: 120vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #4e5052;
     } 
 
     .portfolio-head {
@@ -332,7 +336,7 @@ body {
         font-size: calc(60px + 5vw);
         line-height: calc(61px + 5vw);
         letter-spacing: 10px;
-        color: black;
+        color: white;
         margin: 2rem;
         cursor: default;
         align-self: flex-start;
@@ -346,8 +350,9 @@ body {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background: grey;
+        background: white;
         border: 2px solid black;
+        border-radius: 20px;
     }
 
 
@@ -403,40 +408,33 @@ body {
     }
 
 .contact {
-    height: 110vh;
+    height: 120vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     cursor: default;
 
 }
 
-    .form-title {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-        cursor: default;
-    }
-
-    .contact-title {
-        border-bottom: 1px solid #0b436e;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 70px;
-        letter-spacing: -0.25px;
-        color: aliceblue;;
-        margin: 1rem;
-        cursor: default;
-    }
+.contact-title {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(60px + 5vw);
+    line-height: calc(61px + 5vw);
+    letter-spacing: 10px;
+    color: black;
+    margin: 2rem;
+    cursor: default;
+    align-self: flex-start;
+}
 
 
     .contact-form {
-        background-color: #7ebdee;
+        background-color: #4e5052;
         border-radius: 20px;
         height: 60vh;
         width: 40vw;
@@ -445,6 +443,7 @@ body {
         justify-content: center;
         align-items: center;
         margin: 1rem;
+        border: 2px solid black;
     }
 
     .input {
@@ -453,9 +452,10 @@ body {
         font-size: 20px;
         line-height: 50px;
         letter-spacing: -0.25px;
-        color: aliceblue;
+        color: white;
         text-align: start;
         transition: 1s;
+        border: 2px solid black;
     }
 
     input:hover {
@@ -469,7 +469,7 @@ body {
         font-size: 20px;
         line-height: 50px;
         letter-spacing: -0.25px;
-        color: #0b436e;
+        color: white;
         cursor: default;
     }
 
@@ -479,6 +479,7 @@ body {
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
+        border: 2px solid black;
     }
 
     .form-btn {
@@ -487,24 +488,26 @@ body {
         font-size: calc(10px + 1vw);
         line-height: 30px;
         letter-spacing: -0.25px;
-        color: aliceblue;
+        color: white;
         margin: 2rem;
-        background-color: #0b436e;
+        background-color: black;
         border: none;
-        width: 200px;
+        width: 250px;
         height: 70px;
         border-radius: 20px;
         transition: 1s;
+        border: 2px solid black;
     }
 
     .form-btn:hover {
-        color: #0b436e;
-        background-color: aliceblue;
+        color: black;
+        background-color: white;
+        border: 2px solid black;
     }
 
     .social-group {
         display: flex;
-       flex-wrap: wrap;
+       //flex-wrap: wrap;
        justify-content:center;
        align-items: center;
        width: 100vw;
@@ -512,21 +515,20 @@ body {
     }
 
     .fa-brands {
-        color: #7ebdee;;
+        color: black;
         font-style: normal;
         font-weight: 400;
         font-size: 90px;
         line-height: 90px;
         margin: 2rem;
-        transition: 1s;
     }
 
     .fa-brands:hover {
-        color: aliceblue;
+        color: #4e5052;
     }
 
     .the-end {
-        background-color: #7ebdee;
+        background-color: #4e5052;;
         height: 7vh;
         display: flex;
         align-items: center;
@@ -539,7 +541,7 @@ body {
             font-size: 20px;
             line-height: 30px;
             letter-spacing: -0.25px;
-            color: #0b436e;
+            color: white;
             margin: 1rem;
             cursor: default;
         }
@@ -619,6 +621,11 @@ body {
 
 @media screen and (max-width:1000px) {
 
+    .my-title {
+        letter-spacing: 5px;
+        font-size: calc(45px + 2vw);
+    }
+
     .text-box-info {
         height: 58vh;
         width: 90vw;
@@ -663,10 +670,6 @@ body {
     .display-image {
         display: none;
     }
-    
-}
-
-@media screen and (max-width:800px) {
 
     .toggle-btn {
         display: flex;
@@ -698,6 +701,26 @@ body {
 
     .navbar-links.active {
         display: flex;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+
+    .header {
+        height: 20vh;
+    }
+
+    .name {
+        font-size: calc(50px + 2vw);
+        line-height: calc(50px + 2vw);
+        letter-spacing: 5px;
+    }
+
+    .my-title {
+        font-size: calc(40px + 2vw);
+        line-height: calc(40px + 2vw);
+        letter-spacing: 2px;
     }
 
     .text-box-info {
@@ -780,16 +803,22 @@ body {
 
 }
 
-@media screen and (max-width:628px) {
+@media screen and (max-width:630px) {
+
+    .header {
+        height: 15vh;
+    }
 
     .name {
-        font-size: 50px;
-        line-height: 70px;
+        font-size: calc(40px + 2vw);
+        line-height: calc(40px + 2vw);
+        letter-spacing: 2px;
     }
 
     .my-title {
-        font-size: 30px;
-        line-height: 60px;
+        font-size: calc(30px + 2vw);
+        line-height: calc(30px + 2vw);
+        letter-spacing: 1px;
     }
 
 }
@@ -869,14 +898,20 @@ body {
 
 @media screen and (max-width:474px) {
 
+    .header {
+        height: 10vh;
+    }
+
     .name {
-        font-size: 30px;
-        line-height: 40px;
+        font-size: calc(30px + 2vw);
+        line-height: calc(30px + 2vw);
+        letter-spacing: 2px;
     }
 
     .my-title {
-        font-size: 20px;
-        line-height: 40px;
+        font-size: calc(20px + 2vw);
+        line-height: calc(20px + 2vw);
+        letter-spacing: 1px;
     }
 
 
@@ -897,6 +932,11 @@ body {
 }
 
 @media screen and (max-width: 450px) {
+
+    .title {
+        font-size: 20px;
+        line-height: 30px;
+    }
 
     .info-box {
         height: 150vh;
@@ -939,11 +979,6 @@ body {
     .card-info-2 {
         font-size: 15px;
         line-height: 25px;
-    }
-
-    .title {
-        font-size: 20px;
-        line-height: 30px;
     }
 
     .project-title {
