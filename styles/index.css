@@ -177,15 +177,16 @@ body {
 .info-box {
   width: 100%;
   background: #4e5052;
-  height: 120vh;
+  height: 125vh;
   width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -216,11 +217,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: calc(35px + 1vw);
+  font-size: calc(30px + 1vw);
   line-height: calc(1.5em + 0.5vw);
   letter-spacing: -0.25px;
   color: white;
-  margin: 1rem;
+  margin: 2rem;
   cursor: default;
 }
 
@@ -230,11 +231,12 @@ body {
   height: 500px;
   border-radius: 20px;
   border: 2px solid white;
+  margin: 1rem;
 }
 
 .education {
   width: 100%;
-  height: 130vh;
+  height: 140vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -283,7 +285,7 @@ body {
           box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
   margin: 10px;
   width: 50vw;
-  height: 90vh;
+  height: 100vh;
   border: 2px solid black;
 }
 
@@ -473,7 +475,7 @@ body {
 
 .contact {
   width: 100%;
-  height: 120vh;
+  height: 125vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -800,9 +802,9 @@ input:hover {
   }
 
   .my-title {
-    font-size: calc(40px + 2vw);
+    font-size: calc(40px + 1vw);
     line-height: calc(40px + 2vw);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   .text-box-info {
@@ -914,6 +916,10 @@ input:hover {
     width: 120vw;
   }
 
+  .portfolio-head {
+    letter-spacing: 1px;
+  }
+
   .card-title {
     font-size: 28px;
     line-height: 38px;
@@ -947,7 +953,7 @@ input:hover {
 }
 @media screen and (max-width: 500px) {
   .portfolio-head {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   .project-title {
@@ -1080,6 +1086,29 @@ input:hover {
   }
 }
 @media screen and (max-width: 355px) {
+  .name {
+    font-size: calc(30px + 1vw);
+    line-height: calc(30px + 1vw);
+    letter-spacing: 2px;
+    margin: 0.5rem;
+  }
+
+  .my-title {
+    font-size: calc(20px + 1vw);
+    line-height: calc(20px + 1vw);
+    letter-spacing: 0.5px;
+    margin: 0.5rem;
+  }
+
+  .info-box-about {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
   .portfolio-head {
     font-size: calc(45px + 2vw);
     line-height: calc(45px + 2vw);
