@@ -106,6 +106,7 @@ body {
     }
 
 .header {
+    width: 100%;
     background-color: white;
     min-height: 80vh;
     width: auto;
@@ -144,14 +145,17 @@ body {
         align-self: flex-start;
     }
 
-.about {
-    min-height: 10vh;
-    width: auto;
-    margin: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .info-box {
+        width: 100%;
+        background: #4e5052;
+        height: 120vh;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        overflow: hidden;
+        }
 
     .about-me {
         width: 100%;
@@ -167,24 +171,16 @@ body {
         align-self: flex-start;
     }
 
-.info-box {
-    background: #4e5052;
-    height: 120vh;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    overflow: hidden;
+    .info-box-about {
+        width: 60vw;
+        height: 60vh;
     }
 
     .info {
-        width: 60vw;
-        height: 40vh;
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 300;
-        font-size: calc(40px + 1vw);
+        font-size: calc(35px + 1vw);
         line-height: calc(1.5em + 0.5vw);
         letter-spacing: -0.25px;
         color: white;
@@ -193,13 +189,15 @@ body {
     }
 
         .display-image {
-            max-width: 40vw;
-            height: 68vh;
+            max-width: 350px;
+            width: 100%;
+            height: 500px;
             border-radius: 20px;
             border: 2px solid white;
         }
 
 .education {
+    width: 100%;
     height: 130vh;
     display: flex;
     flex-wrap: wrap;
@@ -209,17 +207,7 @@ body {
     }
 
     .education-head {
-        width: 100%;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: calc(60px + 5vw);
-        line-height: calc(61px + 5vw);
-        letter-spacing: 10px;
         color: black;
-        margin: 2rem;
-        cursor: default;
-        align-self: flex-start;
         }
 
         .wrapper{
@@ -236,7 +224,7 @@ body {
             text-align: center;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             border-radius: 20px;
             box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
@@ -309,6 +297,7 @@ body {
            
 
  .portfolio {
+    width: 100%;
     height: 120vh;
     display: flex;
     flex-wrap: wrap;
@@ -337,7 +326,7 @@ body {
         margin: 1em;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         background: white;
         border: 2px solid black;
@@ -397,6 +386,7 @@ body {
     }
 
 .contact {
+    width: 100%;
     height: 120vh;
     display: flex;
     flex-wrap: wrap;
@@ -408,17 +398,7 @@ body {
 }
 
 .contact-title {
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: calc(60px + 5vw);
-    line-height: calc(61px + 5vw);
-    letter-spacing: 10px;
     color: black;
-    margin: 2rem;
-    cursor: default;
-    align-self: flex-start;
 }
 
 
@@ -517,6 +497,7 @@ body {
 
     .the-end {
         background-color: #4e5052;;
+        width: 100%;
         height: 7vh;
         display: flex;
         align-items: center;
@@ -559,11 +540,6 @@ body {
 
 @media screen and (max-width:1182px) {
 
-    .display-image-1 {
-        height: 58vh;
-        width: 70vw;
-    }
-
     .card-text {
         font-size: 23px;
         line-height: 33px;
@@ -580,15 +556,13 @@ body {
         height: 150vh;
     }
 
-    .display-image-1 {
-        height: 68vh;
-        width: 80vw;
-    }
-
-
 }
 
 @media screen and (max-width:1050px) {
+
+    .info-box {
+        flex-direction: column;
+    }
 
     .carousel {
         flex-wrap: wrap;
@@ -597,7 +571,7 @@ body {
     }
 
     .education {
-        height: 200vh;
+        height: 220vh;
     }
 
     .carousel .card{
@@ -612,11 +586,6 @@ body {
     .my-title {
         letter-spacing: 5px;
         font-size: calc(45px + 2vw);
-    }
-
-    .text-box-info {
-        height: 58vh;
-        width: 90vw;
     }
 
     .portfolio {
@@ -652,11 +621,12 @@ body {
 @media screen and (max-width:900px) {
 
     .info-box {
-        height: 100vh;
+        height: 120vh;
     }
-
-    .display-image {
-        display: none;
+    
+    .info-box-about {
+        width: 80vw;
+        height: 40vh;
     }
 
     .toggle-btn {
@@ -716,6 +686,15 @@ body {
         width: 90vh;
     }
 
+    .education {
+        height: 360vh;
+    }
+
+    .carousel .card {
+        width: 80vw;
+        height: 100vh;
+    }
+
     .social-box {
         width: 15vw;
         height: 15vh;
@@ -728,13 +707,29 @@ body {
 
 }
 
-@media screen and (max-width:790px) {
+@media screen and (max-width: 750px) {
 
-    .project-btn {
-        width: 20vw;
+    .portfolio {
+        height: 320vh;
     }
 
+    .pro-1 {
+        width: 70vw;
+        height: 90vh;
+    }
+
+    .pro-2 {
+        width: 70vw;
+        height: 90vh;
+    }
+
+    .pro-3 {
+        width: 70vw;
+        height: 90vh;
+    }
+    
 }
+
 
 @media screen and (max-width:715px) {
 
@@ -753,10 +748,7 @@ body {
 } 
 
 @media screen and (max-width:711px) {
-    
-    .project-btn {
-        width: 25vw;
-    }
+
 
     .text-box-info {
         height: 75vh;
@@ -768,25 +760,23 @@ body {
         width: 100vw;
     }
 
+    .message-box {
+        max-width: 250px;
+        width: 100%;
+        height: 300px;
+    }
+
 }
 
 @media screen and (max-width:694px) {
     
-    .portfolio {
-        height: 200vh;
-    }
-    
-    .projects {
-        width: 50vw;
-        height: 60vh;
+    .info-box-about {
+        width: 90vw;
+        height: 50vh;
     }
     
     .project-des {
         font-size: 17px;
-    }
-
-    .project-btn {
-        width: 30vw;
     }
 
 }
@@ -841,22 +831,6 @@ body {
 }
 
 @media screen and (max-width:581px) {
-    
-    .projects {
-        width: 70vw;
-        height: 60vh;
-    }
-    
-    .project-des {
-        font-size: 20px;
-        line-height: 22px;
-    }
-
-    .project-btn {
-        width: 40vw;
-        font-size: 18px;
-        line-height: 30px;
-    }
 
     .social-box {
         width: 20vw;
@@ -872,6 +846,30 @@ body {
 
 
 @media screen and (max-width:500px) {
+
+    .portfolio-head {
+        letter-spacing: 2px;
+    }
+
+    .project-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .pro-1 {
+        width: 90vw;
+        height: 90vh;
+    }
+
+    .pro-2 {
+        width: 90vw;
+        height: 90vh;
+    }
+
+    .pro-3 {
+        width: 90vw;
+        height: 90vh;
+    }
 
     .info-box {
         height: 140vh;
@@ -902,14 +900,9 @@ body {
         letter-spacing: 1px;
     }
 
-
     .project-des {
         font-size: 17px;
         line-height: 20px;
-    }
-
-    .project-btn {
-        width: 40vw;
     }
 
     .social-box {
@@ -938,7 +931,25 @@ body {
 
 }
 
+@media screen and (max-width: 400px) {
+
+    .info-box {
+        justify-content: space-evenly;
+    }
+
+    .info-box-about {
+        width: 90vw;
+        height: 60vh;
+    }
+
+}
+
 @media screen and (max-width: 390px) {
+
+    .contact-form {
+        width: 90vw;
+        height: 60vh;
+    }
 
     .social-box {
         width: 25vw;
@@ -981,9 +992,10 @@ body {
 
 @media screen and (max-width: 355px) {
 
-    .project-btn {
-        font-size: 15px;
-        line-height: 25px;
+    .portfolio-head {
+        letter-spacing: .5px;
+        font-size: calc(50px + 2vw);
+        line-height: calc(50px + 2vw);
     }
    
     .social-group {
@@ -1002,21 +1014,18 @@ body {
 @media screen and (max-width: 337px) {
 
     .info-box {
-        height: 120vh;
+        height: 90vh;
     }
-    
+
+
     .info {
-        font-size: calc(12px + 1vw);
-        line-height: calc(1.5em + 0.1vw);
+        font-size: 20px;
+        line-height: 30px;
     }
 
-    .display-image {
-        display: none;
-    }
-
-    .project-btn {
-        font-size: 12px;
-        line-height: 18px;
+    .img-1 {
+        width: 250px;
+        height: 150px;
     }
 
 }

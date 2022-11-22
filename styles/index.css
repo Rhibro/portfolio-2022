@@ -124,6 +124,7 @@ body {
 }
 
 .header {
+  width: 100%;
   background-color: white;
   min-height: 80vh;
   width: auto;
@@ -173,19 +174,22 @@ body {
       align-self: flex-start;
 }
 
-.about {
-  min-height: 10vh;
+.info-box {
+  width: 100%;
+  background: #4e5052;
+  height: 120vh;
   width: auto;
-  margin: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  overflow: hidden;
 }
 
 .about-me {
@@ -203,31 +207,16 @@ body {
       align-self: flex-start;
 }
 
-.info-box {
-  background: #4e5052;
-  height: 120vh;
-  width: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow: hidden;
+.info-box-about {
+  width: 60vw;
+  height: 60vh;
 }
 
 .info {
-  width: 60vw;
-  height: 40vh;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: calc(40px + 1vw);
+  font-size: calc(35px + 1vw);
   line-height: calc(1.5em + 0.5vw);
   letter-spacing: -0.25px;
   color: white;
@@ -236,13 +225,15 @@ body {
 }
 
 .display-image {
-  max-width: 40vw;
-  height: 68vh;
+  max-width: 350px;
+  width: 100%;
+  height: 500px;
   border-radius: 20px;
   border: 2px solid white;
 }
 
 .education {
+  width: 100%;
   height: 130vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -259,18 +250,7 @@ body {
 }
 
 .education-head {
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: calc(60px + 5vw);
-  line-height: calc(61px + 5vw);
-  letter-spacing: 10px;
   color: black;
-  margin: 2rem;
-  cursor: default;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
 }
 
 .wrapper {
@@ -296,9 +276,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -387,6 +367,7 @@ body {
 }
 
 .portfolio {
+  width: 100%;
   height: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -428,9 +409,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -495,6 +476,7 @@ body {
 }
 
 .contact {
+  width: 100%;
   height: 120vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -515,18 +497,7 @@ body {
 }
 
 .contact-title {
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: calc(60px + 5vw);
-  line-height: calc(61px + 5vw);
-  letter-spacing: 10px;
   color: black;
-  margin: 2rem;
-  cursor: default;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
 }
 
 .contact-form {
@@ -647,6 +618,7 @@ input:hover {
 
 .the-end {
   background-color: #4e5052;
+  width: 100%;
   height: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -689,11 +661,6 @@ input:hover {
   }
 }
 @media screen and (max-width: 1182px) {
-  .display-image-1 {
-    height: 58vh;
-    width: 70vw;
-  }
-
   .card-text {
     font-size: 23px;
     line-height: 33px;
@@ -709,13 +676,15 @@ input:hover {
             justify-content: center;
     height: 150vh;
   }
-
-  .display-image-1 {
-    height: 68vh;
-    width: 80vw;
-  }
 }
 @media screen and (max-width: 1050px) {
+  .info-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
   .carousel {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -728,7 +697,7 @@ input:hover {
   }
 
   .education {
-    height: 200vh;
+    height: 220vh;
   }
 
   .carousel .card {
@@ -740,11 +709,6 @@ input:hover {
   .my-title {
     letter-spacing: 5px;
     font-size: calc(45px + 2vw);
-  }
-
-  .text-box-info {
-    height: 58vh;
-    width: 90vw;
   }
 
   .portfolio {
@@ -777,11 +741,12 @@ input:hover {
 }
 @media screen and (max-width: 900px) {
   .info-box {
-    height: 100vh;
+    height: 120vh;
   }
 
-  .display-image {
-    display: none;
+  .info-box-about {
+    width: 80vw;
+    height: 40vh;
   }
 
   .toggle-btn {
@@ -849,6 +814,15 @@ input:hover {
     width: 90vh;
   }
 
+  .education {
+    height: 360vh;
+  }
+
+  .carousel .card {
+    width: 80vw;
+    height: 100vh;
+  }
+
   .social-box {
     width: 15vw;
     height: 15vh;
@@ -859,9 +833,24 @@ input:hover {
     height: 60vh;
   }
 }
-@media screen and (max-width: 790px) {
-  .project-btn {
-    width: 20vw;
+@media screen and (max-width: 750px) {
+  .portfolio {
+    height: 320vh;
+  }
+
+  .pro-1 {
+    width: 70vw;
+    height: 90vh;
+  }
+
+  .pro-2 {
+    width: 70vw;
+    height: 90vh;
+  }
+
+  .pro-3 {
+    width: 70vw;
+    height: 90vh;
   }
 }
 @media screen and (max-width: 715px) {
@@ -880,10 +869,6 @@ input:hover {
   }
 }
 @media screen and (max-width: 711px) {
-  .project-btn {
-    width: 25vw;
-  }
-
   .text-box-info {
     height: 75vh;
     width: 100vh;
@@ -893,23 +878,21 @@ input:hover {
     height: 68vh;
     width: 100vw;
   }
+
+  .message-box {
+    max-width: 250px;
+    width: 100%;
+    height: 300px;
+  }
 }
 @media screen and (max-width: 694px) {
-  .portfolio {
-    height: 200vh;
-  }
-
-  .projects {
-    width: 50vw;
-    height: 60vh;
+  .info-box-about {
+    width: 90vw;
+    height: 50vh;
   }
 
   .project-des {
     font-size: 17px;
-  }
-
-  .project-btn {
-    width: 30vw;
   }
 }
 @media screen and (max-width: 630px) {
@@ -956,22 +939,6 @@ input:hover {
   }
 }
 @media screen and (max-width: 581px) {
-  .projects {
-    width: 70vw;
-    height: 60vh;
-  }
-
-  .project-des {
-    font-size: 20px;
-    line-height: 22px;
-  }
-
-  .project-btn {
-    width: 40vw;
-    font-size: 18px;
-    line-height: 30px;
-  }
-
   .social-box {
     width: 20vw;
     height: 15vh;
@@ -983,6 +950,30 @@ input:hover {
   }
 }
 @media screen and (max-width: 500px) {
+  .portfolio-head {
+    letter-spacing: 2px;
+  }
+
+  .project-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .pro-1 {
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .pro-2 {
+    width: 90vw;
+    height: 90vh;
+  }
+
+  .pro-3 {
+    width: 90vw;
+    height: 90vh;
+  }
+
   .info-box {
     height: 140vh;
   }
@@ -1014,10 +1005,6 @@ input:hover {
     line-height: 20px;
   }
 
-  .project-btn {
-    width: 40vw;
-  }
-
   .social-box {
     width: 25vw;
     height: 15vh;
@@ -1038,7 +1025,24 @@ input:hover {
     height: 85vh;
   }
 }
+@media screen and (max-width: 400px) {
+  .info-box {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+
+  .info-box-about {
+    width: 90vw;
+    height: 60vh;
+  }
+}
 @media screen and (max-width: 390px) {
+  .contact-form {
+    width: 90vw;
+    height: 60vh;
+  }
+
   .social-box {
     width: 25vw;
     height: 15vh;
@@ -1074,9 +1078,10 @@ input:hover {
   }
 }
 @media screen and (max-width: 355px) {
-  .project-btn {
-    font-size: 15px;
-    line-height: 25px;
+  .portfolio-head {
+    letter-spacing: 0.5px;
+    font-size: calc(50px + 2vw);
+    line-height: calc(50px + 2vw);
   }
 
   .social-group {
@@ -1092,20 +1097,16 @@ input:hover {
 }
 @media screen and (max-width: 337px) {
   .info-box {
-    height: 120vh;
+    height: 90vh;
   }
 
   .info {
-    font-size: calc(12px + 1vw);
-    line-height: calc(1.5em + 0.1vw);
+    font-size: 20px;
+    line-height: 30px;
   }
 
-  .display-image {
-    display: none;
-  }
-
-  .project-btn {
-    font-size: 12px;
-    line-height: 18px;
+  .img-1 {
+    width: 250px;
+    height: 150px;
   }
 }
