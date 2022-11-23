@@ -52,7 +52,6 @@ body {
     }
 
     .title a:hover {
-        //border-bottom: 1px solid black ;
         color: black;
     }
 
@@ -149,12 +148,10 @@ body {
         width: 100%;
         background: #4e5052;
         height: 125vh;
-        width: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
-        overflow: hidden;
+        justify-content: center;
+        align-items: center;
         }
 
     .about-me {
@@ -362,8 +359,8 @@ body {
     }
 
     .img-1 {
-        width: 25vw;
-        height: 30vh;
+        width: 350px;
+        height: 200px;
         border: 2px solid black;
     }
 
@@ -515,8 +512,9 @@ body {
 
 @media screen and (max-width:1280px) {
 
-    .display-img-3 {
-        display: none;
+    .img-1 {
+        width: 300px;
+        height: 150px;
     }
 
     .project-des {
@@ -550,7 +548,12 @@ body {
     .info-box {
         align-items: center;
         justify-content: center;
-        height: 150vh;
+        height: 100vh;
+    }
+
+    .img-1 {
+        width: 290px;
+        height: 140px;
     }
 
 }
@@ -559,6 +562,10 @@ body {
 
     .info-box {
         flex-direction: column;
+    }
+
+    .display-image {
+        display: none;
     }
 
     .carousel {
@@ -574,6 +581,11 @@ body {
     .carousel .card{
         width: 80vw;
         height: 60vh;
+    }
+
+    .img-1 {
+        width: 270px;
+        height: 140px;
     }
 
 }
@@ -618,7 +630,7 @@ body {
 @media screen and (max-width:900px) {
 
     .info-box {
-        height: 120vh;
+        height: 90vh;
     }
     
     .info-box-about {
@@ -678,18 +690,18 @@ body {
         letter-spacing: 1px;
     }
 
-    .text-box-info {
-        height: 68vh;
-        width: 90vh;
+    .info {
+        font-size: calc(25px + 1vw);
+        line-height: calc(1.5em + 0.5vw);
     }
-
+ 
     .education {
-        height: 360vh;
+        height: 300vh;
     }
 
     .carousel .card {
         width: 80vw;
-        height: 100vh;
+        height: 80vh;
     }
 
     .social-box {
@@ -752,11 +764,6 @@ body {
         width: 100vh;
     }
 
-    .display-image-1 {
-        height: 68vh;
-        width: 100vw;
-    }
-
     .message-box {
         max-width: 250px;
         width: 100%;
@@ -799,12 +806,7 @@ body {
 }
 
 @media screen and (max-width:600px) {
-    
-    .display-image-1 {
-        height: 60vh;
-        width: 120vw;
-    }
-
+  
     .portfolio-head {
         letter-spacing: 1px;
     }
@@ -873,12 +875,8 @@ body {
     }
 
     .info-box {
-        height: 140vh;
-    }
-    
-    .display-image-1 {
-        height: 50vh;
-        width: 130vw;
+        height: 100vh;
+        justify-content: flex-start;
     }
 
 }
@@ -921,12 +919,21 @@ body {
     }
 
     .info-box {
-        height: 150vh;
+        height: 100vh;
     }
     
     .text-box-info {
         width: 100vw;
         height: 85vh;
+    }
+
+    .education {
+        height: 300vh;
+    }
+
+    .carousel .card {
+        width: 80vw;
+        height: 90vh;
     }
 
     .portfolio-head {
@@ -940,7 +947,7 @@ body {
 @media screen and (max-width: 400px) {
 
     .info-box {
-        justify-content: space-evenly;
+        height: 110vh;
     }
 
     .info-box-about {
@@ -1012,10 +1019,6 @@ body {
         margin: .5rem;
     }
 
-    .info-box-about {
-        justify-content: center;
-        align-items: center;
-    }
 
     .portfolio-head {
         font-size: calc(45px + 2vw);
@@ -1038,7 +1041,7 @@ body {
 @media screen and (max-width: 337px) {
 
     .info-box {
-        height: 90vh;
+        height: 80vh;
     }
 
 

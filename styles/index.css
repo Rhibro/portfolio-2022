@@ -178,19 +178,17 @@ body {
   width: 100%;
   background: #4e5052;
   height: 125vh;
-  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about-me {
@@ -450,8 +448,8 @@ body {
 }
 
 .img-1 {
-  width: 25vw;
-  height: 30vh;
+  width: 350px;
+  height: 200px;
   border: 2px solid black;
 }
 
@@ -641,8 +639,9 @@ input:hover {
 }
 
 @media screen and (max-width: 1280px) {
-  .display-img-3 {
-    display: none;
+  .img-1 {
+    width: 300px;
+    height: 150px;
   }
 
   .project-des {
@@ -672,7 +671,12 @@ input:hover {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 150vh;
+    height: 100vh;
+  }
+
+  .img-1 {
+    width: 290px;
+    height: 140px;
   }
 }
 @media screen and (max-width: 1050px) {
@@ -681,6 +685,10 @@ input:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+
+  .display-image {
+    display: none;
   }
 
   .carousel {
@@ -701,6 +709,11 @@ input:hover {
   .carousel .card {
     width: 80vw;
     height: 60vh;
+  }
+
+  .img-1 {
+    width: 270px;
+    height: 140px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -739,7 +752,7 @@ input:hover {
 }
 @media screen and (max-width: 900px) {
   .info-box {
-    height: 120vh;
+    height: 90vh;
   }
 
   .info-box-about {
@@ -807,18 +820,18 @@ input:hover {
     letter-spacing: 1px;
   }
 
-  .text-box-info {
-    height: 68vh;
-    width: 90vh;
+  .info {
+    font-size: calc(25px + 1vw);
+    line-height: calc(1.5em + 0.5vw);
   }
 
   .education {
-    height: 360vh;
+    height: 300vh;
   }
 
   .carousel .card {
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
   }
 
   .social-box {
@@ -872,11 +885,6 @@ input:hover {
     width: 100vh;
   }
 
-  .display-image-1 {
-    height: 68vh;
-    width: 100vw;
-  }
-
   .message-box {
     max-width: 250px;
     width: 100%;
@@ -911,11 +919,6 @@ input:hover {
   }
 }
 @media screen and (max-width: 600px) {
-  .display-image-1 {
-    height: 60vh;
-    width: 120vw;
-  }
-
   .portfolio-head {
     letter-spacing: 1px;
   }
@@ -977,12 +980,10 @@ input:hover {
   }
 
   .info-box {
-    height: 140vh;
-  }
-
-  .display-image-1 {
-    height: 50vh;
-    width: 130vw;
+    height: 100vh;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 @media screen and (max-width: 474px) {
@@ -1019,12 +1020,21 @@ input:hover {
   }
 
   .info-box {
-    height: 150vh;
+    height: 100vh;
   }
 
   .text-box-info {
     width: 100vw;
     height: 85vh;
+  }
+
+  .education {
+    height: 300vh;
+  }
+
+  .carousel .card {
+    width: 80vw;
+    height: 90vh;
   }
 
   .portfolio-head {
@@ -1035,9 +1045,7 @@ input:hover {
 }
 @media screen and (max-width: 400px) {
   .info-box {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    height: 110vh;
   }
 
   .info-box-about {
@@ -1100,15 +1108,6 @@ input:hover {
     margin: 0.5rem;
   }
 
-  .info-box-about {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-
   .portfolio-head {
     font-size: calc(45px + 2vw);
     line-height: calc(45px + 2vw);
@@ -1127,7 +1126,7 @@ input:hover {
 }
 @media screen and (max-width: 337px) {
   .info-box {
-    height: 90vh;
+    height: 80vh;
   }
 
   .info {
