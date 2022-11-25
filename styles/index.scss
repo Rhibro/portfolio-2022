@@ -110,7 +110,7 @@ body {
 .header {
     width: 100%;
     background-color: white;
-    min-height: 80vh;
+    min-height: 100vh;
     width: auto;
     display: flex;
     justify-content: center;
@@ -150,11 +150,11 @@ body {
     .info-box {
         width: 100%;
         background: #4e5052;
-        height: 125vh;
+        height: 124vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         }
 
     .about-me {
